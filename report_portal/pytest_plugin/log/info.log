@@ -1,0 +1,921 @@
+2014-06-23 11:48:49,191 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 53a7e9f1e4b0eb79d4b24022, project name default_project, suite name default_suite
+2014-06-23 11:49:21,493 - pytest_plugin.mapping_fixture_action - ERROR - Problems with finalizer occured, please check list <class 'pytest_plugin.mapping_fixture_action.ItemState'> and item test_smth2pkg test_smth3.py
+Traceback (most recent call last):
+  File "/Users/kiryl_zayets/Dropbox/Python/report_portal/pytest_plugin/mapping_fixture_action.py", line 62, in deactivate
+    raise NothingFound('No one finalizer is found in the list {0}. Was trying to found {1}'.format(cls, repr))
+pytest_plugin.custom_exceptions.NothingFound: No one finalizer is found in the list <class 'pytest_plugin.mapping_fixture_action.ItemState'>. Was trying to found test_smth2pkg test_smth3.py
+2014-06-23 11:49:21,801 - pytest_plugin.pytest_erp_plugin - INFO - Session is finished.
+2014-06-23 12:06:38,870 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 53a7ee1fe4b0eb79d4b2406d, project name default_project, suite name default_suite
+2014-06-23 12:06:40,684 - use_plugin.test_something.test_sm1 - INFO - privet
+2014-06-23 12:09:29,925 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 53a7eecae4b0eb79d4b2407a, project name default_project, suite name default_suite
+2014-06-23 12:09:31,602 - use_plugin.test_something.test_sm1 - INFO - privet
+2014-06-23 12:10:24,746 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 53a7ef01e4b0eb79d4b24087, project name default_project, suite name default_suite
+2014-06-23 12:10:26,475 - use_plugin.test_something.test_sm1 - INFO - privet
+2014-06-23 12:10:26,476 - use_plugin.test_something.test_sm1 - INFO - efefefef
+2014-06-23 12:10:26,477 - use_plugin.test_something.test_sm1 - ERROR - ererere1!!!!!
+2014-06-23 12:11:36,975 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 53a7ef49e4b0eb79d4b24094, project name default_project, suite name default_suite
+2014-06-23 12:13:06,151 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 53a7efa2e4b0eb79d4b2409b, project name default_project, suite name default_suite
+2014-06-23 12:15:57,454 - use_plugin.test_something.test_sm1 - INFO - privet
+2014-06-23 12:15:57,455 - use_plugin.test_something.test_sm1 - INFO - efefefef
+2014-06-23 12:15:57,456 - use_plugin.test_something.test_sm1 - ERROR - ererere1!!!!!
+2014-06-23 12:17:49,310 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 53a7f0bee4b0eb79d4b240a8, project name default_project, suite name default_suite
+2014-06-23 12:17:52,854 - use_plugin.test_something.test_sm1 - INFO - test
+2014-06-23 12:18:56,691 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 53a7f101e4b0eb79d4b240cd, project name default_project, suite name default_suite
+2014-06-23 12:34:14,409 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 53a7f497e4b0eb79d4b240d6, project name default_project, suite name default_suite
+2014-06-23 13:14:01,091 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 53a7fde9e4b0eb79d4b240da, project name default_project, suite name default_suite
+2014-06-23 13:14:25,041 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 53a7fe01e4b0eb79d4b240e0, project name default_project, suite name default_suite
+2014-06-23 13:14:33,566 - pytest_plugin.mapping_fixture_action - ERROR - Problems with finalizer occured, please check list <class 'pytest_plugin.mapping_fixture_action.ItemState'> and item test_usf
+Traceback (most recent call last):
+  File "/Users/kiryl_zayets/Dropbox/Python/report_portal/pytest_plugin/mapping_fixture_action.py", line 63, in deactivate
+    raise NothingFound('No one finalizer is found in the list {0}. Was trying to found {1}'.format(cls, repr))
+pytest_plugin.custom_exceptions.NothingFound: No one finalizer is found in the list <class 'pytest_plugin.mapping_fixture_action.ItemState'>. Was trying to found test_usf
+2014-06-23 13:15:19,031 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 53a7fe37e4b0eb79d4b240e6, project name default_project, suite name default_suite
+2014-06-23 13:18:07,362 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 53a7fee0e4b0eb79d4b240ec, project name default_project, suite name default_suite
+2014-06-23 13:20:19,235 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 53a7ff64e4b0eb79d4b240f2, project name default_project, suite name default_suite
+2014-06-23 13:20:26,486 - pytest_plugin.mapping_fixture_action - ERROR - Problems with finalizer occured, please check list <class 'pytest_plugin.mapping_fixture_action.ItemState'> and item test_usf
+Traceback (most recent call last):
+  File "/Users/kiryl_zayets/Dropbox/Python/report_portal/pytest_plugin/mapping_fixture_action.py", line 63, in deactivate
+    raise NothingFound('No one finalizer is found in the list {0}. Was trying to found {1}'.format(cls, repr))
+pytest_plugin.custom_exceptions.NothingFound: No one finalizer is found in the list <class 'pytest_plugin.mapping_fixture_action.ItemState'>. Was trying to found test_usf
+2014-06-23 13:22:24,850 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 53a7ffe1e4b0eb79d4b240f8, project name default_project, suite name default_suite
+2014-06-23 13:26:00,472 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 53a800b9e4b0eb79d4b240fe, project name default_project, suite name default_suite
+2014-06-23 13:30:12,083 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 53a801b4e4b0eb79d4b24107, project name default_project, suite name default_suite
+2014-06-23 13:31:45,450 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 53a80212e4b0eb79d4b2410e, project name default_project, suite name default_suite
+2014-06-23 13:31:53,089 - pytest_plugin.mapping_fixture_action - ERROR - Problems with finalizer occured, please check list <class 'pytest_plugin.mapping_fixture_action.ItemState'> and item test_usf
+Traceback (most recent call last):
+  File "/Users/kiryl_zayets/Dropbox/Python/report_portal/pytest_plugin/mapping_fixture_action.py", line 63, in deactivate
+    raise NothingFound('No one finalizer is found in the list {0}. Was trying to found {1}'.format(cls, repr))
+pytest_plugin.custom_exceptions.NothingFound: No one finalizer is found in the list <class 'pytest_plugin.mapping_fixture_action.ItemState'>. Was trying to found test_usf
+2014-06-23 13:32:04,739 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 53a80225e4b0eb79d4b24114, project name default_project, suite name default_suite
+2014-06-23 13:32:46,839 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 53a8024fe4b0eb79d4b2411a, project name default_project, suite name default_suite
+2014-06-23 13:38:20,931 - use_plugin.test_something.test_sm1 - INFO - test
+2014-06-23 13:40:02,378 - pytest_plugin.mapping_fixture_action - ERROR - Problems with finalizer occured, please check list <class 'pytest_plugin.mapping_fixture_action.ItemState'> and item test_smth2pkg test_smth3.py
+Traceback (most recent call last):
+  File "/Users/kiryl_zayets/Dropbox/Python/report_portal/pytest_plugin/mapping_fixture_action.py", line 63, in deactivate
+    raise NothingFound('No one finalizer is found in the list {0}. Was trying to found {1}'.format(cls, repr))
+pytest_plugin.custom_exceptions.NothingFound: No one finalizer is found in the list <class 'pytest_plugin.mapping_fixture_action.ItemState'>. Was trying to found test_smth2pkg test_smth3.py
+2014-06-23 13:40:03,013 - pytest_plugin.pytest_erp_plugin - INFO - Session is finished.
+2014-06-23 13:48:28,025 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 53a805fce4b0eb79d4b2417e, project name default_project, suite name default_suite
+2014-06-23 13:48:29,202 - use_plugin.test_something.test_sm1 - INFO - test
+2014-06-23 13:48:39,743 - pytest_plugin.mapping_fixture_action - ERROR - Problems with finalizer occured, please check list <class 'pytest_plugin.mapping_fixture_action.ItemState'> and item test_smth2pkg test_smth3.py
+Traceback (most recent call last):
+  File "/Users/kiryl_zayets/Dropbox/Python/report_portal/pytest_plugin/mapping_fixture_action.py", line 63, in deactivate
+    raise NothingFound('No one finalizer is found in the list {0}. Was trying to found {1}'.format(cls, repr))
+pytest_plugin.custom_exceptions.NothingFound: No one finalizer is found in the list <class 'pytest_plugin.mapping_fixture_action.ItemState'>. Was trying to found test_smth2pkg test_smth3.py
+2014-06-23 13:48:40,047 - pytest_plugin.pytest_erp_plugin - INFO - Session is finished.
+2014-06-23 13:55:23,571 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 53a8079ce4b0eb79d4b241fb, project name default_project, suite name default_suite
+2014-06-23 13:55:39,117 - use_plugin.test_something.test_sm1 - INFO - test
+2014-06-23 13:55:39,118 - use_plugin.test_something.test_sm1 - ERROR - mega error
+2014-06-23 13:55:45,537 - pytest_plugin.mapping_fixture_action - ERROR - Problems with finalizer occured, please check list <class 'pytest_plugin.mapping_fixture_action.ItemState'> and item test_usf envelop
+Traceback (most recent call last):
+  File "/Users/kiryl_zayets/Dropbox/Python/report_portal/pytest_plugin/mapping_fixture_action.py", line 61, in deactivate
+    raise MoreThanOneFound('Several finalizers found {}'.format(current_event))
+pytest_plugin.custom_exceptions.MoreThanOneFound: Several finalizers found [<pytest_plugin.mapping_fixture_action.ItemState object at 0x1031262d0>, <pytest_plugin.mapping_fixture_action.ItemState object at 0x104935490>]
+2014-06-23 13:55:53,910 - use_plugin.test_something.test_sm1 - INFO - Nothing special
+2014-06-23 13:55:54,342 - pytest_plugin.mapping_fixture_action - ERROR - Problems with finalizer occured, please check list <class 'pytest_plugin.mapping_fixture_action.ItemState'> and item test_ufs envelop
+Traceback (most recent call last):
+  File "/Users/kiryl_zayets/Dropbox/Python/report_portal/pytest_plugin/mapping_fixture_action.py", line 61, in deactivate
+    raise MoreThanOneFound('Several finalizers found {}'.format(current_event))
+pytest_plugin.custom_exceptions.MoreThanOneFound: Several finalizers found [<pytest_plugin.mapping_fixture_action.ItemState object at 0x104a19a10>, <pytest_plugin.mapping_fixture_action.ItemState object at 0x104a19210>]
+2014-06-23 13:56:05,532 - use_plugin.test_something.test_sm1 - INFO - Super duper
+2014-06-23 14:02:58,454 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 53a80963e4b0eb79d4b24232, project name default_project, suite name default_suite
+2014-06-23 14:03:10,852 - use_plugin.test_something.test_sm1 - INFO - test
+2014-06-23 14:03:10,854 - use_plugin.test_something.test_sm1 - ERROR - mega error
+2014-06-23 14:06:02,329 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 53a80a1ae4b0eb79d4b24242, project name default_project, suite name default_suite
+2014-06-23 14:06:15,681 - use_plugin.test_something.test_sm1 - INFO - test
+2014-06-23 14:06:15,682 - use_plugin.test_something.test_sm1 - ERROR - mega error
+2014-06-23 14:07:04,929 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 53a80a59e4b0eb79d4b24252, project name default_project, suite name default_suite
+2014-06-23 14:07:07,045 - use_plugin.test_something.test_sm1 - INFO - test
+2014-06-23 14:07:07,048 - use_plugin.test_something.test_sm1 - ERROR - mega error
+2014-06-23 14:07:15,095 - use_plugin.test_something.test_sm1 - INFO - Nothing special
+2014-06-23 14:07:21,351 - use_plugin.test_something.test_sm1 - INFO - Super duper
+2014-06-23 14:11:04,483 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 53a80b49e4b0eb79d4b2427f, project name default_project, suite name default_suite
+2014-06-23 14:11:10,314 - use_plugin.test_something.test_sm1 - INFO - test
+2014-06-23 14:11:10,339 - use_plugin.test_something.test_sm1 - ERROR - mega error
+2014-06-23 14:13:06,838 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 53a80bc3e4b0eb79d4b2428f, project name default_project, suite name default_suite
+2014-06-23 14:13:11,762 - use_plugin.test_something.test_sm1 - INFO - test
+2014-06-23 14:13:11,763 - use_plugin.test_something.test_sm1 - ERROR - mega error
+2014-06-23 14:13:39,609 - use_plugin.test_something.test_sm1 - INFO - Nothing special
+2014-06-23 14:13:49,019 - use_plugin.test_something.test_sm1 - INFO - Super duper
+2014-06-23 14:18:04,685 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 53a80cede4b0eb79d4b242be, project name default_project, suite name default_suite
+2014-06-23 14:18:10,641 - use_plugin.test_something.test_sm1 - INFO - test
+2014-06-23 14:18:10,642 - use_plugin.test_something.test_sm1 - ERROR - mega error
+2014-06-23 14:18:21,156 - use_plugin.test_something.test_sm1 - INFO - Nothing special
+2014-06-23 14:18:27,052 - use_plugin.test_something.test_sm1 - INFO - Super duper
+2014-06-23 14:24:10,433 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 53a80e5be4b0eb79d4b2435c, project name default_project, suite name default_suite
+2014-06-23 14:24:26,479 - use_plugin.test_something.test_sm1 - INFO - test
+2014-06-23 14:24:26,482 - use_plugin.test_something.test_sm1 - ERROR - mega error
+2014-06-23 14:24:53,922 - use_plugin.test_something.test_sm1 - INFO - Nothing special
+2014-06-23 14:25:07,862 - use_plugin.test_something.test_sm1 - INFO - Super duper
+2014-06-23 14:27:10,214 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 53a80f0ee4b0eb79d4b24397, project name default_project, suite name default_suite
+2014-06-23 14:27:32,774 - use_plugin.test_something.test_sm1 - INFO - test
+2014-06-23 14:27:32,776 - use_plugin.test_something.test_sm1 - ERROR - mega error
+2014-06-23 14:27:36,122 - use_plugin.test_something.test_sm1 - INFO - Nothing special
+2014-06-23 14:27:38,493 - use_plugin.test_something.test_sm1 - INFO - Super duper
+2014-06-23 14:28:01,641 - pytest_plugin.pytest_erp_plugin - INFO - Session is finished.
+2014-06-23 14:28:45,441 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 53a80f6ee4b0eb79d4b243ce, project name default_project, suite name default_suite
+2014-06-23 14:28:47,271 - use_plugin.test_something.test_sm1 - INFO - test
+2014-06-23 14:28:47,273 - use_plugin.test_something.test_sm1 - ERROR - mega error
+2014-06-23 14:33:37,100 - use_plugin.test_something.test_sm1 - INFO - Nothing special
+2014-06-23 14:33:39,327 - use_plugin.test_something.test_sm1 - INFO - Super duper
+2014-06-23 14:34:48,596 - pytest_plugin.pytest_erp_plugin - INFO - Session is finished.
+2014-06-23 14:36:00,641 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 53a81121e4b0eb79d4b24405, project name default_project, suite name default_suite
+2014-06-23 14:36:02,463 - use_plugin.test_something.test_sm1 - INFO - test
+2014-06-23 14:36:02,465 - use_plugin.test_something.test_sm1 - ERROR - mega error
+2014-06-23 14:36:04,292 - use_plugin.test_something.test_sm1 - INFO - Nothing special
+2014-06-23 14:36:06,136 - use_plugin.test_something.test_sm1 - INFO - Super duper
+2014-06-23 14:36:18,823 - pytest_plugin.pytest_erp_plugin - INFO - Session is finished.
+2014-06-23 14:38:11,372 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 53a811a3e4b0eb79d4b24481, project name default_project, suite name default_suite
+2014-06-23 14:38:13,459 - use_plugin.test_something.test_sm1 - INFO - test
+2014-06-23 14:38:13,462 - use_plugin.test_something.test_sm1 - ERROR - mega error
+2014-06-23 14:38:15,827 - use_plugin.test_something.test_sm1 - INFO - Nothing special
+2014-06-23 14:38:17,785 - use_plugin.test_something.test_sm1 - INFO - Super duper
+2014-06-23 14:38:28,775 - pytest_plugin.pytest_erp_plugin - INFO - Session is finished.
+2014-06-23 14:40:07,873 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 53a81218e4b0eb79d4b244b8, project name default_project, suite name default_suite
+2014-06-23 14:40:09,811 - use_plugin.test_something.test_sm1 - INFO - test
+2014-06-23 14:40:09,812 - use_plugin.test_something.test_sm1 - ERROR - mega error
+2014-06-23 14:40:11,601 - use_plugin.test_something.test_sm1 - INFO - Nothing special
+2014-06-23 14:40:13,440 - use_plugin.test_something.test_sm1 - INFO - Super duper
+2014-06-23 14:40:31,607 - pytest_plugin.pytest_erp_plugin - INFO - Session is finished.
+2014-06-23 14:41:32,759 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 53a8126de4b0eb79d4b24534, project name default_project, suite name default_suite
+2014-06-23 14:41:34,622 - use_plugin.test_something.test_sm1 - INFO - test
+2014-06-23 14:41:34,623 - use_plugin.test_something.test_sm1 - ERROR - mega error
+2014-06-23 14:41:38,836 - use_plugin.test_something.test_sm1 - INFO - Nothing special
+2014-06-23 14:41:40,842 - use_plugin.test_something.test_sm1 - INFO - Super duper
+2014-06-23 14:41:48,060 - pytest_plugin.pytest_erp_plugin - INFO - Session is finished.
+2014-06-23 14:42:46,673 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 53a812b7e4b0eb79d4b2456c, project name default_project, suite name default_suite
+2014-06-23 14:42:48,420 - use_plugin.test_something.test_sm1 - INFO - test
+2014-06-23 14:42:48,422 - use_plugin.test_something.test_sm1 - ERROR - mega error
+2014-06-23 14:42:51,134 - use_plugin.test_something.test_sm1 - INFO - Nothing special
+2014-06-23 14:42:52,934 - use_plugin.test_something.test_sm1 - INFO - Super duper
+2014-06-23 14:42:58,314 - pytest_plugin.pytest_erp_plugin - INFO - Session is finished.
+2014-06-23 14:43:17,650 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 53a812d6e4b0eb79d4b245a3, project name default_project, suite name default_suite
+2014-06-23 14:43:20,594 - pytest_plugin.pytest_erp_plugin - INFO - Session is finished.
+2014-06-23 14:44:12,592 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 53a8130de4b0eb79d4b245bd, project name default_project, suite name default_suite
+2014-06-23 14:44:14,444 - use_plugin.test_something.test_sm1 - INFO - test
+2014-06-23 14:44:14,446 - use_plugin.test_something.test_sm1 - ERROR - mega error
+2014-06-23 14:44:18,307 - use_plugin.test_something.test_sm1 - INFO - Nothing special
+2014-06-23 14:44:20,505 - pytest_plugin.pytest_erp_plugin - INFO - Session is finished.
+2014-06-23 14:44:44,797 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 53a8132de4b0eb79d4b245e1, project name default_project, suite name default_suite
+2014-06-23 14:44:46,702 - use_plugin.test_something.test_sm1 - INFO - test
+2014-06-23 14:44:46,704 - use_plugin.test_something.test_sm1 - ERROR - mega error
+2014-06-23 14:44:48,791 - use_plugin.test_something.test_sm1 - INFO - Nothing special
+2014-06-23 14:44:50,580 - use_plugin.test_something.test_sm1 - INFO - Super duper
+2014-06-23 14:45:05,464 - pytest_plugin.pytest_erp_plugin - INFO - Session is finished.
+2014-06-23 14:45:41,336 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 53a81366e4b0eb79d4b2465d, project name default_project, suite name default_suite
+2014-06-23 14:45:43,118 - use_plugin.test_something.test_sm1 - INFO - test
+2014-06-23 14:45:43,120 - use_plugin.test_something.test_sm1 - ERROR - mega error
+2014-06-23 14:45:45,514 - use_plugin.test_something.test_sm1 - INFO - Nothing special
+2014-06-23 14:45:47,278 - pytest_plugin.pytest_erp_plugin - INFO - Session is finished.
+2014-06-23 14:49:02,748 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 53a8142fe4b0eb79d4b246e1, project name default_project, suite name default_suite
+2014-06-23 14:49:04,636 - use_plugin.test_something.test_sm1 - INFO - test
+2014-06-23 14:49:04,637 - use_plugin.test_something.test_sm1 - ERROR - mega error
+2014-06-23 14:49:07,377 - pytest_plugin.pytest_erp_plugin - INFO - Session is finished.
+2014-06-23 14:52:18,130 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 53a814f2e4b0eb79d4b2471c, project name default_project, suite name default_suite
+2014-06-23 14:55:02,343 - use_plugin.test_something.test_sm1 - INFO - test
+2014-06-23 14:55:02,345 - use_plugin.test_something.test_sm1 - ERROR - mega error
+2014-06-23 14:55:14,836 - pytest_plugin.pytest_erp_plugin - INFO - Session is finished.
+2014-06-23 15:28:47,927 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 53a81d80e4b04642f9da50bb, project name default_project, suite name default_suite
+2014-06-23 15:28:50,441 - pytest_plugin.pytest_erp_plugin - INFO - Session is finished.
+2014-06-23 15:31:26,900 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 53a81e1fe4b04642f9da50d6, project name default_project, suite name default_suite
+2014-06-23 15:31:29,563 - pytest_plugin.pytest_erp_plugin - INFO - Session is finished.
+2014-06-23 15:31:42,755 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 53a81e2fe4b04642f9da50ef, project name default_project, suite name default_suite
+2014-06-23 15:31:44,140 - use_plugin.test_something.test_sm1 - INFO - test
+2014-06-23 15:31:44,140 - use_plugin.test_something.test_sm1 - ERROR - mega error
+2014-06-23 15:31:45,493 - use_plugin.test_something.test_sm1 - INFO - Nothing special
+2014-06-23 15:31:47,400 - use_plugin.test_something.test_sm1 - INFO - Super duper
+2014-06-23 15:31:58,234 - pytest_plugin.pytest_erp_plugin - INFO - Session is finished.
+2014-06-23 15:32:18,839 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 53a81e53e4b04642f9da516b, project name default_project, suite name default_suite
+2014-06-23 15:32:20,876 - use_plugin.test_something.test_sm1 - INFO - test
+2014-06-23 15:32:20,877 - use_plugin.test_something.test_sm1 - ERROR - mega error
+2014-06-23 15:32:22,796 - use_plugin.test_something.test_sm1 - INFO - Nothing special
+2014-06-23 15:32:25,092 - use_plugin.test_something.test_sm1 - INFO - Super duper
+2014-06-23 15:32:46,937 - pytest_plugin.pytest_erp_plugin - INFO - Session is finished.
+2014-06-23 15:32:58,059 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 53a81e7be4b04642f9da51e8, project name default_project, suite name default_suite
+2014-06-23 15:33:05,058 - pytest_plugin.pytest_erp_plugin - INFO - Session is finished.
+2014-06-23 15:34:30,418 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 53a81ed7e4b04642f9da5202, project name default_project, suite name default_suite
+2014-06-23 15:34:31,773 - use_plugin.test_something.test_sm1 - INFO - test
+2014-06-23 15:34:31,773 - use_plugin.test_something.test_sm1 - ERROR - mega error
+2014-06-23 15:34:32,988 - use_plugin.test_something.test_sm1 - INFO - Nothing special
+2014-06-23 15:34:34,330 - use_plugin.test_something.test_sm1 - INFO - Super duper
+2014-06-23 15:34:36,228 - pytest_plugin.pytest_erp_plugin - INFO - Session is finished.
+2014-06-23 15:39:48,927 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 53a82015e4b04642f9da5239, project name default_project, suite name default_suite
+2014-06-23 15:40:21,486 - use_plugin.test_something.test_sm1 - INFO - test
+2014-06-23 15:40:21,490 - use_plugin.test_something.test_sm1 - ERROR - mega error
+2014-06-23 15:40:57,734 - use_plugin.test_something.test_sm1 - INFO - Nothing special
+2014-06-23 15:41:21,236 - use_plugin.test_something.test_sm1 - INFO - Super duper
+2014-06-23 15:42:37,738 - pytest_plugin.pytest_erp_plugin - INFO - Session is finished.
+2014-06-23 15:43:21,729 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 53a820eae4b04642f9da5350, project name default_project, suite name default_suite
+2014-06-23 15:43:38,404 - use_plugin.test_something.test_sm1 - INFO - test
+2014-06-23 15:43:38,405 - use_plugin.test_something.test_sm1 - ERROR - mega error
+2014-06-23 15:44:03,032 - use_plugin.test_something.test_sm1 - INFO - Nothing special
+2014-06-23 15:44:26,533 - use_plugin.test_something.test_sm1 - INFO - Super duper
+2014-06-23 15:47:12,832 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 53a821d1e4b04642f9da537d, project name default_project, suite name default_suite
+2014-06-23 15:47:45,986 - use_plugin.test_something.test_sm1 - INFO - test
+2014-06-23 15:47:45,990 - use_plugin.test_something.test_sm1 - ERROR - mega error
+2014-06-23 15:49:03,832 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 53a82240e4b04642f9da538d, project name default_project, suite name default_suite
+2014-06-23 15:49:21,230 - use_plugin.test_something.test_sm1 - INFO - test
+2014-06-23 15:49:21,232 - use_plugin.test_something.test_sm1 - ERROR - mega error
+2014-06-23 15:57:57,817 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 53a82456e4b04642f9da539d, project name default_project, suite name default_suite
+2014-06-23 16:02:21,637 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 53a8255ee4b04642f9da539f, project name default_project, suite name default_suite
+2014-06-23 16:02:28,918 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 53a82565e4b04642f9da53ae, project name default_project, suite name default_suite
+2014-06-23 16:02:33,264 - use_plugin.test_something.test_sm1 - INFO - test
+2014-06-23 16:02:33,264 - use_plugin.test_something.test_sm1 - ERROR - mega error
+2014-06-23 16:02:36,865 - use_plugin.test_something.test_sm1 - INFO - Nothing special
+2014-06-23 16:02:39,599 - use_plugin.test_something.test_sm1 - INFO - test
+2014-06-23 16:02:39,602 - use_plugin.test_something.test_sm1 - ERROR - mega error
+2014-06-23 16:02:43,091 - use_plugin.test_something.test_sm1 - INFO - Super duper
+2014-06-23 16:03:17,536 - pytest_plugin.mapping_fixture_action - ERROR - Problems with finalizer occured, please check list <class 'pytest_plugin.mapping_fixture_action.ItemState'> and item test_smth2pkg test_smth3.py
+Traceback (most recent call last):
+  File "/Users/kiryl_zayets/Dropbox/Python/report_portal/pytest_plugin/mapping_fixture_action.py", line 66, in deactivate
+    raise NothingFound('No one finalizer is found in the list {0}. Was trying to found {1}'.format(cls, repr))
+pytest_plugin.custom_exceptions.NothingFound: No one finalizer is found in the list <class 'pytest_plugin.mapping_fixture_action.ItemState'>. Was trying to found test_smth2pkg test_smth3.py
+2014-06-23 16:03:17,782 - pytest_plugin.pytest_erp_plugin - INFO - Session is finished.
+2014-06-23 16:07:05,815 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 53a8267ae4b04642f9da542b, project name default_project, suite name default_suite
+2014-06-23 16:07:25,347 - use_plugin.test_something.test_sm1 - INFO - test
+2014-06-23 16:07:25,349 - use_plugin.test_something.test_sm1 - ERROR - mega error
+2014-06-23 16:11:15,737 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 53a82774e4b04642f9da543b, project name default_project, suite name default_suite
+2014-06-23 16:13:24,301 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 53a827f5e4b04642f9da543e, project name default_project, suite name default_suite
+2014-06-23 16:17:27,270 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 53a828e8e4b04642f9da5447, project name default_project, suite name default_suite
+2014-06-23 16:17:32,913 - use_plugin.test_something.test_sm1 - INFO - test
+2014-06-23 16:17:32,914 - use_plugin.test_something.test_sm1 - ERROR - mega error
+2014-06-23 16:19:52,318 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 53a82979e4b04642f9da5457, project name default_project, suite name default_suite
+2014-06-23 16:22:50,888 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 53a82a2be4b04642f9da5466, project name default_project, suite name default_suite
+2014-06-23 16:23:33,603 - pytest_plugin.pytest_erp_plugin - INFO - Session is finished.
+2014-06-23 16:24:31,204 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 53a82a90e4b04642f9da547f, project name default_project, suite name default_suite
+2014-06-23 16:25:09,408 - use_plugin.test_something.test_sm1 - INFO - test
+2014-06-23 16:25:09,410 - use_plugin.test_something.test_sm1 - ERROR - mega error
+2014-06-23 16:39:56,660 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 53a82e2de4b04642f9da549e, project name default_project, suite name default_suite
+2014-06-23 16:57:54,494 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 53a83263e4b04642f9da54b2, project name default_project, suite name default_suite
+2014-06-23 16:57:55,505 - use_plugin.test_something.test_sm1 - INFO - test
+2014-06-23 16:57:55,506 - use_plugin.test_something.test_sm1 - ERROR - mega error
+2014-06-23 16:57:56,359 - use_plugin.test_something.test_sm1 - INFO - Nothing special
+2014-06-23 16:57:57,379 - use_plugin.test_something.test_sm1 - INFO - Super duper
+2014-06-23 16:58:04,590 - pytest_plugin.mapping_fixture_action - ERROR - Problems with finalizer occured, please check list <class 'pytest_plugin.mapping_fixture_action.ItemState'> and item test_smth2pkg test_smth3.py
+Traceback (most recent call last):
+  File "/Users/kiryl_zayets/Dropbox/Python/report_portal/pytest_plugin/mapping_fixture_action.py", line 66, in deactivate
+    raise NothingFound('No one finalizer is found in the list {0}. Was trying to found {1}'.format(cls, repr))
+pytest_plugin.custom_exceptions.NothingFound: No one finalizer is found in the list <class 'pytest_plugin.mapping_fixture_action.ItemState'>. Was trying to found test_smth2pkg test_smth3.py
+2014-06-23 16:58:04,689 - pytest_plugin.pytest_erp_plugin - INFO - Session is finished.
+2014-06-23 16:59:43,565 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 53a832d0e4b04642f9da552e, project name default_project, suite name default_suite
+2014-06-23 17:07:46,851 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 53a834b3e4b04642f9da5536, project name default_project, suite name default_suite
+2014-06-23 17:07:50,501 - use_plugin.test_something.test_sm1 - INFO - test
+2014-06-23 17:07:50,502 - use_plugin.test_something.test_sm1 - ERROR - mega error
+2014-06-23 17:07:55,478 - use_plugin.test_something.test_sm1 - INFO - Nothing special
+2014-06-23 17:07:58,767 - use_plugin.test_something.test_sm1 - INFO - Super duper
+2014-06-23 17:08:31,329 - pytest_plugin.mapping_fixture_action - ERROR - Problems with finalizer occured, please check list <class 'pytest_plugin.mapping_fixture_action.ItemState'> and item test_smth2pkg test_smth3.py
+Traceback (most recent call last):
+  File "/Users/kiryl_zayets/Dropbox/Python/report_portal/pytest_plugin/mapping_fixture_action.py", line 66, in deactivate
+    raise NothingFound('No one finalizer is found in the list {0}. Was trying to found {1}'.format(cls, repr))
+pytest_plugin.custom_exceptions.NothingFound: No one finalizer is found in the list <class 'pytest_plugin.mapping_fixture_action.ItemState'>. Was trying to found test_smth2pkg test_smth3.py
+2014-06-23 17:08:31,467 - pytest_plugin.pytest_erp_plugin - INFO - Session is finished.
+2014-06-23 17:12:20,885 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 53a835c5e4b04642f9da55b2, project name default_project, suite name default_suite
+2014-06-23 17:22:52,563 - use_plugin.test_something.test_sm1 - INFO - test
+2014-06-23 17:22:52,565 - use_plugin.test_something.test_sm1 - ERROR - mega error
+2014-06-23 17:25:18,919 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 53a838d0e4b04642f9da55c2, project name default_project, suite name default_suite
+2014-06-23 17:25:23,510 - use_plugin.test_something.test_sm1 - INFO - test
+2014-06-23 17:25:23,511 - use_plugin.test_something.test_sm1 - ERROR - mega error
+2014-06-23 17:32:02,575 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 53a83a63e4b04642f9da55d2, project name default_project, suite name default_suite
+2014-06-23 17:32:31,130 - use_plugin.test_something.test_sm1 - INFO - test
+2014-06-23 17:32:31,131 - use_plugin.test_something.test_sm1 - ERROR - mega error
+2014-06-23 17:32:44,923 - use_plugin.test_something.test_sm1 - INFO - Nothing special
+2014-06-23 17:32:47,680 - use_plugin.test_something.test_sm1 - INFO - Super duper
+2014-06-23 17:33:09,249 - pytest_plugin.mapping_fixture_action - ERROR - Problems with finalizer occured, please check list <class 'pytest_plugin.mapping_fixture_action.ItemState'> and item test_smth2pkg test_smth3.py
+Traceback (most recent call last):
+  File "/Users/kiryl_zayets/Dropbox/Python/report_portal/pytest_plugin/mapping_fixture_action.py", line 66, in deactivate
+    raise NothingFound('No one finalizer is found in the list {0}. Was trying to found {1}'.format(cls, repr))
+pytest_plugin.custom_exceptions.NothingFound: No one finalizer is found in the list <class 'pytest_plugin.mapping_fixture_action.ItemState'>. Was trying to found test_smth2pkg test_smth3.py
+2014-06-23 17:33:09,400 - pytest_plugin.pytest_erp_plugin - INFO - Session is finished.
+2014-06-23 17:34:18,228 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 53a83aebe4b04642f9da564e, project name default_project, suite name default_suite
+2014-06-23 17:34:20,998 - use_plugin.test_something.test_sm1 - INFO - test
+2014-06-23 17:34:21,000 - use_plugin.test_something.test_sm1 - ERROR - mega error
+2014-06-23 17:37:33,178 - use_plugin.test_something.test_sm1 - INFO - Nothing special
+2014-06-23 17:37:40,188 - use_plugin.test_something.test_sm1 - INFO - Super duper
+2014-06-23 17:44:20,975 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 53a83d46e4b04642f9da5674, project name default_project, suite name default_suite
+2014-06-23 17:45:00,865 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 53a83d6de4b04642f9da567a, project name default_project, suite name default_suite
+2014-06-23 17:45:45,718 - use_plugin.test_something.test_sm1 - INFO - test
+2014-06-23 17:45:45,722 - use_plugin.test_something.test_sm1 - ERROR - mega error
+2014-06-23 18:00:29,442 - pytest_plugin.mapping_fixture_action - ERROR - Problems with finalizer occured, please check list <class 'pytest_plugin.mapping_fixture_action.ItemState'> and item test_usf envelop
+Traceback (most recent call last):
+  File "/Users/kiryl_zayets/Dropbox/Python/report_portal/pytest_plugin/mapping_fixture_action.py", line 64, in deactivate
+    raise MoreThanOneFound('Several finalizers found {}'.format(current_event))
+pytest_plugin.custom_exceptions.MoreThanOneFound: Several finalizers found [<pytest_plugin.mapping_fixture_action.ItemState object at 0x104a2dd10>, <pytest_plugin.mapping_fixture_action.ItemState object at 0x1046229d0>]
+2014-06-23 18:00:51,942 - use_plugin.test_something.test_sm1 - INFO - Nothing special
+2014-06-23 18:00:56,883 - use_plugin.test_something.test_sm1 - INFO - Super duper
+2014-06-23 18:01:21,559 - pytest_plugin.mapping_fixture_action - ERROR - Problems with finalizer occured, please check list <class 'pytest_plugin.mapping_fixture_action.ItemState'> and item test_smth2pkg test_smth3.py
+Traceback (most recent call last):
+  File "/Users/kiryl_zayets/Dropbox/Python/report_portal/pytest_plugin/mapping_fixture_action.py", line 66, in deactivate
+    raise NothingFound('No one finalizer is found in the list {0}. Was trying to found {1}'.format(cls, repr))
+pytest_plugin.custom_exceptions.NothingFound: No one finalizer is found in the list <class 'pytest_plugin.mapping_fixture_action.ItemState'>. Was trying to found test_smth2pkg test_smth3.py
+2014-06-23 18:01:21,756 - pytest_plugin.pytest_erp_plugin - INFO - Session is finished.
+2014-06-23 18:01:45,509 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 53a8415ae4b04642f9da56ff, project name default_project, suite name default_suite
+2014-06-23 18:01:53,237 - use_plugin.test_something.test_sm1 - INFO - test
+2014-06-23 18:01:53,239 - use_plugin.test_something.test_sm1 - ERROR - mega error
+2014-06-23 18:05:31,681 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 53a8423ce4b04642f9da570f, project name default_project, suite name default_suite
+2014-06-23 18:05:35,366 - use_plugin.test_something.test_sm1 - INFO - test
+2014-06-23 18:05:35,368 - use_plugin.test_something.test_sm1 - ERROR - mega error
+2014-06-23 18:05:47,661 - use_plugin.test_something.test_sm1 - INFO - Nothing special
+2014-06-23 18:05:50,149 - use_plugin.test_something.test_sm1 - INFO - Super duper
+2014-06-23 18:06:11,075 - pytest_plugin.mapping_fixture_action - ERROR - Problems with finalizer occured, please check list <class 'pytest_plugin.mapping_fixture_action.ItemState'> and item test_smth2pkg test_smth3.py
+Traceback (most recent call last):
+  File "/Users/kiryl_zayets/Dropbox/Python/report_portal/pytest_plugin/mapping_fixture_action.py", line 66, in deactivate
+    raise NothingFound('No one finalizer is found in the list {0}. Was trying to found {1}'.format(cls, repr))
+pytest_plugin.custom_exceptions.NothingFound: No one finalizer is found in the list <class 'pytest_plugin.mapping_fixture_action.ItemState'>. Was trying to found test_smth2pkg test_smth3.py
+2014-06-23 18:06:11,224 - pytest_plugin.pytest_erp_plugin - INFO - Session is finished.
+2014-06-23 18:11:29,532 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 53a843a2e4b04642f9da5796, project name default_project, suite name default_suite
+2014-06-23 18:11:36,429 - use_plugin.test_something.test_sm1 - INFO - test
+2014-06-23 18:11:36,431 - use_plugin.test_something.test_sm1 - ERROR - mega error
+2014-06-23 18:13:58,792 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 53a84437e4b0e3e44fc2d2d6, project name default_project, suite name default_suite
+2014-06-23 18:14:03,378 - use_plugin.test_something.test_sm1 - INFO - test
+2014-06-23 18:14:03,379 - use_plugin.test_something.test_sm1 - ERROR - mega error
+2014-06-23 18:14:08,834 - pytest_plugin.mapping_fixture_action - ERROR - Problems with finalizer occured, please check list <class 'pytest_plugin.mapping_fixture_action.ItemState'> and item test_usf envelop
+Traceback (most recent call last):
+  File "/Users/kiryl_zayets/Dropbox/Python/report_portal/pytest_plugin/mapping_fixture_action.py", line 64, in deactivate
+    raise MoreThanOneFound('Several finalizers found {}'.format(current_event))
+pytest_plugin.custom_exceptions.MoreThanOneFound: Several finalizers found [<pytest_plugin.mapping_fixture_action.ItemState object at 0x1049e6b50>, <pytest_plugin.mapping_fixture_action.ItemState object at 0x104996cd0>]
+2014-06-23 18:14:30,242 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 53a84457e4b0e3e44fc2d2e8, project name default_project, suite name default_suite
+2014-06-23 18:14:34,406 - use_plugin.test_something.test_sm1 - INFO - test
+2014-06-23 18:14:34,407 - use_plugin.test_something.test_sm1 - ERROR - mega error
+2014-06-23 18:16:04,473 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 53a844b5e4b0e3e44fc2d2f8, project name default_project, suite name default_suite
+2014-06-23 18:16:09,354 - use_plugin.test_something.test_sm1 - INFO - test
+2014-06-23 18:16:09,355 - use_plugin.test_something.test_sm1 - ERROR - mega error
+2014-06-23 18:16:57,133 - use_plugin.test_something.test_sm1 - INFO - Nothing special
+2014-06-23 18:17:01,447 - use_plugin.test_something.test_sm1 - INFO - Super duper
+2014-06-23 18:17:32,418 - pytest_plugin.mapping_fixture_action - ERROR - Problems with finalizer occured, please check list <class 'pytest_plugin.mapping_fixture_action.ItemState'> and item test_smth2pkg test_smth3.py
+Traceback (most recent call last):
+  File "/Users/kiryl_zayets/Dropbox/Python/report_portal/pytest_plugin/mapping_fixture_action.py", line 66, in deactivate
+    raise NothingFound('No one finalizer is found in the list {0}. Was trying to found {1}'.format(cls, repr))
+pytest_plugin.custom_exceptions.NothingFound: No one finalizer is found in the list <class 'pytest_plugin.mapping_fixture_action.ItemState'>. Was trying to found test_smth2pkg test_smth3.py
+2014-06-23 18:17:32,608 - pytest_plugin.pytest_erp_plugin - INFO - Session is finished.
+2014-06-23 18:20:19,407 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 53a845b4e4b0e3e44fc2d37f, project name default_project, suite name default_suite
+2014-06-23 18:26:31,680 - pytest_plugin.pytest_erp_plugin - INFO - Session is finished.
+2014-06-23 18:26:36,852 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 53a8472de4b01c9ae3a00d7f, project name default_project, suite name default_suite
+2014-06-23 18:26:42,848 - pytest_plugin.pytest_erp_plugin - INFO - Session is finished.
+2014-06-23 18:26:58,545 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 53a84743e4b01c9ae3a00d83, project name default_project, suite name default_suite
+2014-06-23 18:27:05,122 - pytest_plugin.pytest_erp_plugin - INFO - Session is finished.
+2014-06-23 18:27:35,933 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 53a84768e4b01c9ae3a00d87, project name default_project, suite name default_suite
+2014-06-23 18:28:37,293 - pytest_plugin.pytest_erp_plugin - INFO - Session is finished.
+2014-06-23 18:28:42,879 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 53a847abe4b01c9ae3a00d8b, project name default_project, suite name default_suite
+2014-06-23 18:29:37,324 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 53a847e2e4b01c9ae3a00d8f, project name default_project, suite name default_suite
+2014-06-23 18:30:07,431 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 53a84800e4b01c9ae3a00d93, project name default_project, suite name default_suite
+2014-06-23 18:30:32,324 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 53a84819e4b01c9ae3a00d95, project name default_project, suite name default_suite
+2014-06-23 18:30:34,259 - pytest_plugin.mapping_fixture_action - ERROR - Problems with finalizer occured, please check list <class 'pytest_plugin.mapping_fixture_action.ItemState'> and item test_smth2pkg test_smth3.py
+Traceback (most recent call last):
+  File "/Users/kiryl_zayets/Dropbox/Python/report_portal/pytest_plugin/mapping_fixture_action.py", line 66, in deactivate
+    raise NothingFound('No one finalizer is found in the list {0}. Was trying to found {1}'.format(cls, repr))
+pytest_plugin.custom_exceptions.NothingFound: No one finalizer is found in the list <class 'pytest_plugin.mapping_fixture_action.ItemState'>. Was trying to found test_smth2pkg test_smth3.py
+2014-06-23 18:30:34,389 - pytest_plugin.pytest_erp_plugin - INFO - Session is finished.
+2014-06-23 18:42:28,647 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 53a84ae5e4b01c9ae3a00da2, project name default_project, suite name default_suite
+2014-06-23 18:52:31,843 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 53a84d40e4b01c9ae3a00da6, project name default_project, suite name default_suite
+2014-06-23 18:53:07,461 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 53a84d64e4b01c9ae3a00daa, project name default_project, suite name default_suite
+2014-06-24 12:49:46,172 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 53a949bae4b083c79b8c0d62, project name default_project, suite name default_suite
+2014-06-24 12:50:40,046 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 53a949f0e4b083c79b8c0d66, project name default_project, suite name default_suite
+2014-06-24 12:51:09,852 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 53a94a0ee4b083c79b8c0d6a, project name default_project, suite name default_suite
+2014-06-24 12:51:24,191 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 53a94a1ce4b083c79b8c0d6e, project name default_project, suite name default_suite
+2014-06-24 12:51:38,466 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 53a94a2ae4b083c79b8c0d72, project name default_project, suite name default_suite
+2014-06-24 12:52:09,222 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 53a94a49e4b083c79b8c0d76, project name default_project, suite name default_suite
+2014-06-24 12:56:17,433 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 53a94b41e4b083c79b8c0d7b, project name default_project, suite name default_suite
+2014-06-24 13:02:00,359 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 53a94c98e4b083c79b8c0d83, project name default_project, suite name default_suite
+2014-06-24 13:03:01,381 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 53a94cd5e4b083c79b8c0d89, project name default_project, suite name default_suite
+2014-06-24 13:04:14,809 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 53a94d1fe4b083c79b8c0d8f, project name default_project, suite name default_suite
+2014-06-24 13:19:45,937 - pytest_plugin.pytest_erp_plugin - INFO - Session is finished.
+2014-06-24 13:23:34,661 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 53a951a7e4b083c79b8c0d95, project name default_project, suite name default_suite
+2014-06-24 13:23:48,623 - pytest_plugin.pytest_erp_plugin - INFO - Session is finished.
+2014-06-24 13:24:31,629 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 53a951e0e4b083c79b8c0d9b, project name default_project, suite name default_suite
+2014-06-24 13:25:06,858 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 53a95203e4b083c79b8c0da1, project name default_project, suite name default_suite
+2014-06-24 13:25:49,877 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 53a9522ee4b083c79b8c0da7, project name default_project, suite name default_suite
+2014-06-24 13:27:09,934 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 53a9527ee4b0b9c085bb01d9, project name default_project, suite name default_suite
+2014-06-24 13:38:45,642 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 53a95536e4b0b9c085bb0247, project name default_project, suite name default_suite
+2014-06-24 13:41:14,628 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 53a955cbe4b0b9c085bb024e, project name default_project, suite name default_suite
+2014-06-24 13:45:54,249 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 53a956e2e4b0b9c085bb0254, project name default_project, suite name default_suite
+2014-06-24 13:47:57,691 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 53a9575ee4b0b9c085bb025b, project name default_project, suite name default_suite
+2014-06-24 13:49:31,702 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 53a957bce4b0b9c085bb0262, project name default_project, suite name default_suite
+2014-06-24 13:58:53,613 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 53a959eee4b0b9c085bb026c, project name default_project, suite name default_suite
+2014-06-24 14:00:55,985 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 53a95a68e4b0b9c085bb0280, project name default_project, suite name default_suite
+2014-06-24 14:00:59,335 - pytest_plugin.pytest_erp_plugin - INFO - Session is finished.
+2014-06-24 14:01:08,327 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 53a95a74e4b0b9c085bb0286, project name default_project, suite name default_suite
+2014-06-24 14:01:36,310 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 53a95a90e4b0b9c085bb028c, project name default_project, suite name default_suite
+2014-06-24 14:07:14,044 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 53a95be2e4b0b9c085bb02fa, project name default_project, suite name default_suite
+2014-06-24 14:13:01,055 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 53a95d3de4b0b9c085bb0367, project name default_project, suite name default_suite
+2014-06-24 14:13:56,852 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 53a95d75e4b0b9c085bb036f, project name default_project, suite name default_suite
+2014-06-24 14:15:54,618 - pytest_plugin.mapping_fixture_action - ERROR - Problems with finalizer occured, please check list <class 'pytest_plugin.mapping_fixture_action.ItemState'> and item test_smth2pkg test_smth3.py
+Traceback (most recent call last):
+  File "/Users/kiryl_zayets/Dropbox/Python/report_portal/pytest_plugin/mapping_fixture_action.py", line 67, in deactivate
+    raise NothingFound('No one finalizer is found in the list {0}. Was trying to found {1}'.format(cls, repr))
+pytest_plugin.custom_exceptions.NothingFound: No one finalizer is found in the list <class 'pytest_plugin.mapping_fixture_action.ItemState'>. Was trying to found test_smth2pkg test_smth3.py
+2014-06-24 14:15:54,966 - pytest_plugin.pytest_erp_plugin - INFO - Session is finished.
+2014-06-24 14:20:32,392 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 53a95f01e4b0b9c085bb0461, project name default_project, suite name default_suite
+2014-06-24 14:23:21,105 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 53a95fa9e4b0b9c085bb0476, project name default_project, suite name default_suite
+2014-06-24 14:24:29,137 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 53a95fede4b0b9c085bb047e, project name default_project, suite name default_suite
+2014-06-24 14:29:47,053 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 53a9612be4b0b9c085bb049b, project name default_project, suite name default_suite
+2014-06-24 14:31:51,142 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 53a961a7e4b0b9c085bb04a2, project name default_project, suite name default_suite
+2014-06-24 14:33:25,777 - pytest_plugin.mapping_fixture_action - ERROR - Problems with finalizer occured, please check list <class 'pytest_plugin.mapping_fixture_action.ItemState'> and item test_smth2pkg test_smth3.py
+Traceback (most recent call last):
+  File "/Users/kiryl_zayets/Dropbox/Python/report_portal/pytest_plugin/mapping_fixture_action.py", line 67, in deactivate
+    raise NothingFound('No one finalizer is found in the list {0}. Was trying to found {1}'.format(cls, repr))
+pytest_plugin.custom_exceptions.NothingFound: No one finalizer is found in the list <class 'pytest_plugin.mapping_fixture_action.ItemState'>. Was trying to found test_smth2pkg test_smth3.py
+2014-06-24 14:41:09,815 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 53a963d6e4b0b9c085bb04d0, project name default_project, suite name default_suite
+2014-06-24 14:43:02,605 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 53a96447e4b0b9c085bb04d7, project name default_project, suite name default_suite
+2014-06-24 14:47:15,996 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 53a96544e4b0b9c085bb04de, project name default_project, suite name default_suite
+2014-06-24 14:48:22,512 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 53a96587e4b0b9c085bb04e7, project name default_project, suite name default_suite
+2014-06-24 14:50:35,663 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 53a9660ce4b0b9c085bb04f6, project name default_project, suite name default_suite
+2014-06-24 14:51:08,893 - use_plugin.test_something.test_sm1 - INFO - test
+2014-06-24 14:51:08,898 - use_plugin.test_something.test_sm1 - ERROR - mega error
+2014-06-24 14:53:29,566 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 53a966bae4b0b9c085bb0506, project name default_project, suite name default_suite
+2014-06-24 14:54:39,364 - use_plugin.test_something.test_sm1 - INFO - test
+2014-06-24 14:54:39,365 - use_plugin.test_something.test_sm1 - ERROR - mega error
+2014-06-24 14:57:10,446 - use_plugin.test_something.test_sm1 - INFO - Nothing special
+2014-06-24 15:00:06,924 - pytest_plugin.pytest_erp_plugin - INFO - Session is finished.
+2014-06-24 15:34:11,645 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 53a97044e4b0b9c085bb053d, project name default_project, suite name default_suite
+2014-06-24 15:34:51,389 - use_plugin.test_something.test_sm1 - INFO - test
+2014-06-24 15:34:51,488 - use_plugin.test_something.test_sm1 - ERROR - mega error
+2014-06-24 15:36:28,516 - use_plugin.test_something.test_sm1 - INFO - Nothing special
+2014-06-24 15:38:15,687 - pytest_plugin.pytest_erp_plugin - INFO - Session is finished.
+2014-06-24 15:48:27,240 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 53a9739be4b0b9c085bb056f, project name default_project, suite name default_suite
+2014-06-24 15:49:56,294 - use_plugin.test_something.test_sm1 - INFO - test
+2014-06-24 15:49:56,297 - use_plugin.test_something.test_sm1 - ERROR - mega error
+2014-06-24 15:51:58,086 - use_plugin.test_something.test_sm1 - INFO - Nothing special
+2014-06-24 15:54:37,723 - pytest_plugin.pytest_erp_plugin - INFO - Session is finished.
+2014-06-24 15:55:38,044 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 53a9754ae4b0b9c085bb05ad, project name default_project, suite name default_suite
+2014-06-24 15:55:58,347 - use_plugin.test_something.test_sm1 - INFO - test
+2014-06-24 15:55:58,349 - use_plugin.test_something.test_sm1 - ERROR - mega error
+2014-06-24 15:56:16,528 - use_plugin.test_something.test_sm1 - INFO - Nothing special
+2014-06-24 16:02:20,556 - pytest_plugin.pytest_erp_plugin - INFO - Session is finished.
+2014-06-24 16:04:54,997 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 53a97777e4b0b9c085bb05e0, project name default_project, suite name default_suite
+2014-06-24 16:05:04,409 - use_plugin.test_something.test_sm1 - INFO - test
+2014-06-24 16:05:04,412 - use_plugin.test_something.test_sm1 - ERROR - mega error
+2014-06-24 16:05:22,814 - use_plugin.test_something.test_sm1 - INFO - Nothing special
+2014-06-24 16:08:30,562 - pytest_plugin.pytest_erp_plugin - INFO - Session is finished.
+2014-06-24 16:10:06,391 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 53a978afe4b0b9c085bb0612, project name default_project, suite name default_suite
+2014-06-24 16:10:17,557 - use_plugin.test_something.test_sm1 - INFO - test
+2014-06-24 16:10:17,559 - use_plugin.test_something.test_sm1 - ERROR - mega error
+2014-06-24 16:10:38,586 - use_plugin.test_something.test_sm1 - INFO - Nothing special
+2014-06-24 16:13:48,226 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 53a9798ce4b0b9c085bb063a, project name default_project, suite name default_suite
+2014-06-24 16:13:54,343 - use_plugin.test_something.test_sm1 - INFO - test
+2014-06-24 16:13:54,345 - use_plugin.test_something.test_sm1 - ERROR - mega error
+2014-06-24 16:14:10,275 - use_plugin.test_something.test_sm1 - INFO - Nothing special
+2014-06-24 16:18:52,532 - pytest_plugin.pytest_erp_plugin - INFO - Session is finished.
+2014-06-24 16:24:00,159 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 53a97bf0e4b0b9c085bb0672, project name default_project, suite name default_suite
+2014-06-24 16:24:07,715 - use_plugin.test_something.test_sm1 - INFO - test
+2014-06-24 16:24:07,718 - use_plugin.test_something.test_sm1 - ERROR - mega error
+2014-06-24 16:24:30,106 - use_plugin.test_something.test_sm1 - INFO - Nothing special
+2014-06-24 16:38:49,628 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 53a97f6ae4b0b9c085bb06a0, project name default_project, suite name default_suite
+2014-06-24 16:38:55,693 - use_plugin.test_something.test_sm1 - INFO - test
+2014-06-24 16:38:55,694 - use_plugin.test_something.test_sm1 - ERROR - mega error
+2014-06-24 16:39:44,648 - use_plugin.test_something.test_sm1 - INFO - Nothing special
+2014-06-24 16:44:50,171 - pytest_plugin.mapping_fixture_action - ERROR - Problems with finalizer occured, please check list <class 'pytest_plugin.mapping_fixture_action.ItemState'> and item test_smth2pkg test_smth3.py
+Traceback (most recent call last):
+  File "/Users/kiryl_zayets/Dropbox/Python/report_portal/pytest_plugin/mapping_fixture_action.py", line 67, in deactivate
+    raise NothingFound('No one finalizer is found in the list {0}. Was trying to found {1}'.format(cls, repr))
+pytest_plugin.custom_exceptions.NothingFound: No one finalizer is found in the list <class 'pytest_plugin.mapping_fixture_action.ItemState'>. Was trying to found test_smth2pkg test_smth3.py
+2014-06-24 16:44:50,493 - pytest_plugin.pytest_erp_plugin - INFO - Session is finished.
+2014-06-24 17:05:16,064 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 53a9859ce4b0b9c085bb07f5, project name default_project, suite name default_suite
+2014-06-24 17:05:17,365 - use_plugin.test_something.test_sm1 - INFO - test
+2014-06-24 17:05:17,365 - use_plugin.test_something.test_sm1 - ERROR - mega error
+2014-06-24 17:05:18,359 - use_plugin.test_something.test_sm1 - INFO - Nothing special
+2014-06-24 17:05:28,742 - pytest_plugin.mapping_fixture_action - ERROR - Problems with finalizer occured, please check list <class 'pytest_plugin.mapping_fixture_action.ItemState'> and item test_smth2pkg test_smth3.py
+Traceback (most recent call last):
+  File "/Users/kiryl_zayets/Dropbox/Python/report_portal/pytest_plugin/mapping_fixture_action.py", line 67, in deactivate
+    raise NothingFound('No one finalizer is found in the list {0}. Was trying to found {1}'.format(cls, repr))
+pytest_plugin.custom_exceptions.NothingFound: No one finalizer is found in the list <class 'pytest_plugin.mapping_fixture_action.ItemState'>. Was trying to found test_smth2pkg test_smth3.py
+2014-06-24 17:05:28,853 - pytest_plugin.pytest_erp_plugin - INFO - Session is finished.
+2014-06-24 17:06:13,469 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 53a985d6e4b0b9c085bb087a, project name default_project, suite name default_suite
+2014-06-24 17:06:14,555 - use_plugin.test_something.test_sm1 - INFO - test
+2014-06-24 17:06:14,556 - use_plugin.test_something.test_sm1 - ERROR - mega error
+2014-06-24 17:06:15,421 - use_plugin.test_something.test_sm1 - INFO - Nothing special
+2014-06-24 17:06:28,428 - pytest_plugin.mapping_fixture_action - ERROR - Problems with finalizer occured, please check list <class 'pytest_plugin.mapping_fixture_action.ItemState'> and item test_smth2pkg test_smth3.py
+Traceback (most recent call last):
+  File "/Users/kiryl_zayets/Dropbox/Python/report_portal/pytest_plugin/mapping_fixture_action.py", line 67, in deactivate
+    raise NothingFound('No one finalizer is found in the list {0}. Was trying to found {1}'.format(cls, repr))
+pytest_plugin.custom_exceptions.NothingFound: No one finalizer is found in the list <class 'pytest_plugin.mapping_fixture_action.ItemState'>. Was trying to found test_smth2pkg test_smth3.py
+2014-06-24 17:06:28,551 - pytest_plugin.pytest_erp_plugin - INFO - Session is finished.
+2014-06-24 17:09:44,933 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 53a986a9e4b0b9c085bb08ff, project name default_project, suite name default_suite
+2014-06-24 17:09:55,618 - pytest_plugin.mapping_fixture_action - ERROR - Problems with finalizer occured, please check list <class 'pytest_plugin.mapping_fixture_action.ItemState'> and item test_smth2pkg test_smth3.py
+Traceback (most recent call last):
+  File "/Users/kiryl_zayets/Dropbox/Python/report_portal/pytest_plugin/mapping_fixture_action.py", line 67, in deactivate
+    raise NothingFound('No one finalizer is found in the list {0}. Was trying to found {1}'.format(cls, repr))
+pytest_plugin.custom_exceptions.NothingFound: No one finalizer is found in the list <class 'pytest_plugin.mapping_fixture_action.ItemState'>. Was trying to found test_smth2pkg test_smth3.py
+2014-06-24 17:09:55,843 - pytest_plugin.pytest_erp_plugin - INFO - Session is finished.
+2014-06-24 17:13:54,306 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 53a987a2e4b0b9c085bb0955, project name default_project, suite name default_suite
+2014-06-24 17:13:57,111 - use_plugin.test_something.test_sm1 - INFO - Nothing special
+2014-06-24 17:14:08,937 - pytest_plugin.mapping_fixture_action - ERROR - Problems with finalizer occured, please check list <class 'pytest_plugin.mapping_fixture_action.ItemState'> and item test_smth2pkg test_smth3.py
+Traceback (most recent call last):
+  File "/Users/kiryl_zayets/Dropbox/Python/report_portal/pytest_plugin/mapping_fixture_action.py", line 67, in deactivate
+    raise NothingFound('No one finalizer is found in the list {0}. Was trying to found {1}'.format(cls, repr))
+pytest_plugin.custom_exceptions.NothingFound: No one finalizer is found in the list <class 'pytest_plugin.mapping_fixture_action.ItemState'>. Was trying to found test_smth2pkg test_smth3.py
+2014-06-24 17:14:09,083 - pytest_plugin.pytest_erp_plugin - INFO - Session is finished.
+2014-06-24 17:15:32,307 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 53a98804e4b0b9c085bb09e5, project name default_project, suite name default_suite
+2014-06-24 17:15:33,529 - use_plugin.test_something.test_sm1 - INFO - test
+2014-06-24 17:15:33,530 - use_plugin.test_something.test_sm1 - ERROR - mega error
+2014-06-24 17:15:34,557 - use_plugin.test_something.test_sm1 - INFO - Nothing special
+2014-06-24 17:15:46,335 - pytest_plugin.mapping_fixture_action - ERROR - Problems with finalizer occured, please check list <class 'pytest_plugin.mapping_fixture_action.ItemState'> and item test_smth2pkg test_smth3.py
+Traceback (most recent call last):
+  File "/Users/kiryl_zayets/Dropbox/Python/report_portal/pytest_plugin/mapping_fixture_action.py", line 67, in deactivate
+    raise NothingFound('No one finalizer is found in the list {0}. Was trying to found {1}'.format(cls, repr))
+pytest_plugin.custom_exceptions.NothingFound: No one finalizer is found in the list <class 'pytest_plugin.mapping_fixture_action.ItemState'>. Was trying to found test_smth2pkg test_smth3.py
+2014-06-24 17:15:46,451 - pytest_plugin.pytest_erp_plugin - INFO - Session is finished.
+2014-06-24 17:25:34,039 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 53a98a5ee4b0b9c085bb0a73, project name default_project, suite name default_suite
+2014-06-24 17:28:14,489 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 53a98affe4b0b9c085bb0a7d, project name default_project, suite name default_suite
+2014-06-24 17:28:52,804 - use_plugin.test_something.test_sm1 - INFO - test
+2014-06-24 17:28:52,808 - use_plugin.test_something.test_sm1 - ERROR - mega error
+2014-06-24 17:53:40,127 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 53a990f4e4b0b9c085bb0a8f, project name default_project, suite name default_suite
+2014-06-24 17:55:50,377 - pytest_plugin.mapping_fixture_action - ERROR - Problems with finalizer occured, please check list <class 'pytest_plugin.mapping_fixture_action.ItemState'> and item test_smth2pkg test_smth3.py
+Traceback (most recent call last):
+  File "/Users/kiryl_zayets/Dropbox/Python/report_portal/pytest_plugin/mapping_fixture_action.py", line 67, in deactivate
+    raise NothingFound('No one finalizer is found in the list {0}. Was trying to found {1}'.format(cls, repr))
+pytest_plugin.custom_exceptions.NothingFound: No one finalizer is found in the list <class 'pytest_plugin.mapping_fixture_action.ItemState'>. Was trying to found test_smth2pkg test_smth3.py
+2014-06-24 17:55:50,669 - pytest_plugin.pytest_erp_plugin - INFO - Session is finished.
+2014-06-24 17:57:43,687 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 53a991e8e4b0b9c085bb0af1, project name default_project, suite name default_suite
+2014-06-24 17:57:44,919 - use_plugin.test_something.test_sm1 - INFO - test
+2014-06-24 17:57:44,920 - use_plugin.test_something.test_sm1 - ERROR - mega error
+2014-06-24 17:57:46,222 - use_plugin.test_something.test_sm1 - INFO - Nothing special
+2014-06-24 17:57:58,489 - pytest_plugin.mapping_fixture_action - ERROR - Problems with finalizer occured, please check list <class 'pytest_plugin.mapping_fixture_action.ItemState'> and item test_smth2pkg test_smth3.py
+Traceback (most recent call last):
+  File "/Users/kiryl_zayets/Dropbox/Python/report_portal/pytest_plugin/mapping_fixture_action.py", line 67, in deactivate
+    raise NothingFound('No one finalizer is found in the list {0}. Was trying to found {1}'.format(cls, repr))
+pytest_plugin.custom_exceptions.NothingFound: No one finalizer is found in the list <class 'pytest_plugin.mapping_fixture_action.ItemState'>. Was trying to found test_smth2pkg test_smth3.py
+2014-06-24 17:57:58,618 - pytest_plugin.pytest_erp_plugin - INFO - Session is finished.
+2014-06-24 18:01:00,750 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 53a992ade4b0b9c085bb0b84, project name default_project, suite name default_suite
+2014-06-25 10:51:05,721 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 53aa7f68e4b0d0d5e6c49211, project name default_project, suite name default_suite
+2014-06-25 10:51:06,747 - use_plugin.test_something.test_sm1 - INFO - test
+2014-06-25 10:51:06,749 - use_plugin.test_something.test_sm1 - ERROR - mega error
+2014-06-25 10:51:07,894 - use_plugin.test_something.test_sm1 - INFO - Nothing special
+2014-06-25 10:51:09,110 - pytest_plugin.pytest_erp_plugin - INFO - Session is finished.
+2014-06-25 10:53:34,617 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 53aa7ffde4b0d0d5e6c4923a, project name default_project, suite name default_suite
+2014-06-25 10:53:35,480 - use_plugin.test_something.test_sm1 - INFO - test
+2014-06-25 10:53:35,480 - use_plugin.test_something.test_sm1 - ERROR - mega error
+2014-06-25 10:53:36,368 - use_plugin.test_something.test_sm1 - INFO - Nothing special
+2014-06-25 10:53:37,318 - pytest_plugin.pytest_erp_plugin - INFO - Session is finished.
+2014-06-25 10:54:55,853 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 53aa804ee4b0d0d5e6c49263, project name default_project, suite name default_suite
+2014-06-25 10:54:57,064 - use_plugin.test_something.test_sm1 - INFO - test
+2014-06-25 10:54:57,065 - use_plugin.test_something.test_sm1 - ERROR - mega error
+2014-06-25 10:54:58,229 - use_plugin.test_something.test_sm1 - INFO - Nothing special
+2014-06-25 10:54:59,402 - pytest_plugin.pytest_erp_plugin - INFO - Session is finished.
+2014-06-25 10:55:36,551 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 53aa8076e4b0d0d5e6c4928e, project name default_project, suite name default_suite
+2014-06-25 10:55:37,647 - use_plugin.test_something.test_sm1 - INFO - test
+2014-06-25 10:55:37,648 - use_plugin.test_something.test_sm1 - ERROR - mega error
+2014-06-25 10:55:38,751 - use_plugin.test_something.test_sm1 - INFO - Nothing special
+2014-06-25 10:55:48,995 - pytest_plugin.mapping_fixture_action - ERROR - Problems with finalizer occured, please check list <class 'pytest_plugin.mapping_fixture_action.ItemState'> and item test_smth2pkg test_smth3.py
+Traceback (most recent call last):
+  File "/Users/kiryl_zayets/Dropbox/Python/report_portal/pytest_plugin/mapping_fixture_action.py", line 67, in deactivate
+    raise NothingFound('No one finalizer is found in the list {0}. Was trying to found {1}'.format(cls, repr))
+pytest_plugin.custom_exceptions.NothingFound: No one finalizer is found in the list <class 'pytest_plugin.mapping_fixture_action.ItemState'>. Was trying to found test_smth2pkg test_smth3.py
+2014-06-25 10:55:49,226 - pytest_plugin.pytest_erp_plugin - INFO - Session is finished.
+2014-06-25 10:56:13,341 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 53aa809be4b0d0d5e6c49321, project name default_project, suite name default_suite
+2014-06-25 10:56:14,498 - use_plugin.test_something.test_sm1 - INFO - test
+2014-06-25 10:56:14,498 - use_plugin.test_something.test_sm1 - ERROR - mega error
+2014-06-25 10:56:15,656 - use_plugin.test_something.test_sm1 - INFO - Nothing special
+2014-06-25 10:56:26,094 - pytest_plugin.mapping_fixture_action - ERROR - Problems with finalizer occured, please check list <class 'pytest_plugin.mapping_fixture_action.ItemState'> and item test_smth2pkg test_smth3.py
+Traceback (most recent call last):
+  File "/Users/kiryl_zayets/Dropbox/Python/report_portal/pytest_plugin/mapping_fixture_action.py", line 67, in deactivate
+    raise NothingFound('No one finalizer is found in the list {0}. Was trying to found {1}'.format(cls, repr))
+pytest_plugin.custom_exceptions.NothingFound: No one finalizer is found in the list <class 'pytest_plugin.mapping_fixture_action.ItemState'>. Was trying to found test_smth2pkg test_smth3.py
+2014-06-25 10:56:26,218 - pytest_plugin.pytest_erp_plugin - INFO - Session is finished.
+2014-06-25 10:58:19,781 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 53aa811ae4b0d0d5e6c493b2, project name default_project, suite name default_suite
+2014-06-25 10:58:20,876 - use_plugin.test_something.test_sm1 - INFO - test
+2014-06-25 10:58:20,877 - use_plugin.test_something.test_sm1 - ERROR - mega error
+2014-06-25 10:58:21,930 - use_plugin.test_something.test_sm1 - INFO - Nothing special
+2014-06-25 10:58:32,206 - pytest_plugin.mapping_fixture_action - ERROR - Problems with finalizer occured, please check list <class 'pytest_plugin.mapping_fixture_action.ItemState'> and item test_smth2pkg test_smth3.py
+Traceback (most recent call last):
+  File "/Users/kiryl_zayets/Dropbox/Python/report_portal/pytest_plugin/mapping_fixture_action.py", line 67, in deactivate
+    raise NothingFound('No one finalizer is found in the list {0}. Was trying to found {1}'.format(cls, repr))
+pytest_plugin.custom_exceptions.NothingFound: No one finalizer is found in the list <class 'pytest_plugin.mapping_fixture_action.ItemState'>. Was trying to found test_smth2pkg test_smth3.py
+2014-06-25 10:58:32,303 - pytest_plugin.pytest_erp_plugin - INFO - Session is finished.
+2014-06-25 10:58:45,214 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 53aa8133e4b0d0d5e6c49443, project name default_project, suite name default_suite
+2014-06-25 10:58:46,258 - use_plugin.test_something.test_sm1 - INFO - test
+2014-06-25 10:58:46,258 - use_plugin.test_something.test_sm1 - ERROR - mega error
+2014-06-25 10:58:47,326 - use_plugin.test_something.test_sm1 - INFO - Nothing special
+2014-06-25 10:58:57,972 - pytest_plugin.mapping_fixture_action - ERROR - Problems with finalizer occured, please check list <class 'pytest_plugin.mapping_fixture_action.ItemState'> and item test_smth2pkg test_smth3.py
+Traceback (most recent call last):
+  File "/Users/kiryl_zayets/Dropbox/Python/report_portal/pytest_plugin/mapping_fixture_action.py", line 67, in deactivate
+    raise NothingFound('No one finalizer is found in the list {0}. Was trying to found {1}'.format(cls, repr))
+pytest_plugin.custom_exceptions.NothingFound: No one finalizer is found in the list <class 'pytest_plugin.mapping_fixture_action.ItemState'>. Was trying to found test_smth2pkg test_smth3.py
+2014-06-25 10:58:58,193 - pytest_plugin.pytest_erp_plugin - INFO - Session is finished.
+2014-06-25 11:02:25,387 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 53aa820fe4b0d0d5e6c494d8, project name default_project, suite name default_suite
+2014-06-25 11:02:26,554 - use_plugin.test_something.test_sm1 - INFO - test
+2014-06-25 11:02:26,554 - use_plugin.test_something.test_sm1 - ERROR - mega error
+2014-06-25 11:02:27,708 - use_plugin.test_something.test_sm1 - INFO - Nothing special
+2014-06-25 11:02:37,444 - pytest_plugin.mapping_fixture_action - ERROR - Problems with finalizer occured, please check list <class 'pytest_plugin.mapping_fixture_action.ItemState'> and item test_smth2pkg test_smth3.py
+Traceback (most recent call last):
+  File "/Users/kiryl_zayets/Dropbox/Python/report_portal/pytest_plugin/mapping_fixture_action.py", line 67, in deactivate
+    raise NothingFound('No one finalizer is found in the list {0}. Was trying to found {1}'.format(cls, repr))
+pytest_plugin.custom_exceptions.NothingFound: No one finalizer is found in the list <class 'pytest_plugin.mapping_fixture_action.ItemState'>. Was trying to found test_smth2pkg test_smth3.py
+2014-06-25 11:02:37,560 - pytest_plugin.pytest_erp_plugin - INFO - Session is finished.
+2014-06-25 11:03:10,765 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 53aa823de4b0d0d5e6c49569, project name default_project, suite name default_suite
+2014-06-25 11:03:11,796 - use_plugin.test_something.test_sm1 - INFO - test
+2014-06-25 11:03:11,796 - use_plugin.test_something.test_sm1 - ERROR - mega error
+2014-06-25 11:03:12,824 - use_plugin.test_something.test_sm1 - INFO - Nothing special
+2014-06-25 11:03:23,313 - pytest_plugin.mapping_fixture_action - ERROR - Problems with finalizer occured, please check list <class 'pytest_plugin.mapping_fixture_action.ItemState'> and item test_smth2pkg test_smth3.py
+Traceback (most recent call last):
+  File "/Users/kiryl_zayets/Dropbox/Python/report_portal/pytest_plugin/mapping_fixture_action.py", line 67, in deactivate
+    raise NothingFound('No one finalizer is found in the list {0}. Was trying to found {1}'.format(cls, repr))
+pytest_plugin.custom_exceptions.NothingFound: No one finalizer is found in the list <class 'pytest_plugin.mapping_fixture_action.ItemState'>. Was trying to found test_smth2pkg test_smth3.py
+2014-06-25 11:03:23,436 - pytest_plugin.pytest_erp_plugin - INFO - Session is finished.
+2014-06-25 11:03:26,556 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 53aa824ce4b0d0d5e6c495fa, project name default_project, suite name default_suite
+2014-06-25 11:03:27,748 - use_plugin.test_something.test_sm1 - INFO - test
+2014-06-25 11:03:27,748 - use_plugin.test_something.test_sm1 - ERROR - mega error
+2014-06-25 11:03:28,884 - use_plugin.test_something.test_sm1 - INFO - Nothing special
+2014-06-25 11:03:39,099 - pytest_plugin.mapping_fixture_action - ERROR - Problems with finalizer occured, please check list <class 'pytest_plugin.mapping_fixture_action.ItemState'> and item test_smth2pkg test_smth3.py
+Traceback (most recent call last):
+  File "/Users/kiryl_zayets/Dropbox/Python/report_portal/pytest_plugin/mapping_fixture_action.py", line 67, in deactivate
+    raise NothingFound('No one finalizer is found in the list {0}. Was trying to found {1}'.format(cls, repr))
+pytest_plugin.custom_exceptions.NothingFound: No one finalizer is found in the list <class 'pytest_plugin.mapping_fixture_action.ItemState'>. Was trying to found test_smth2pkg test_smth3.py
+2014-06-25 11:03:39,210 - pytest_plugin.pytest_erp_plugin - INFO - Session is finished.
+2014-06-25 11:05:34,402 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 53aa82cce4b0d0d5e6c4968b, project name default_project, suite name default_suite
+2014-06-25 11:05:35,537 - use_plugin.test_something.test_sm1 - INFO - test
+2014-06-25 11:05:35,537 - use_plugin.test_something.test_sm1 - ERROR - mega error
+2014-06-25 11:05:36,717 - use_plugin.test_something.test_sm1 - INFO - Nothing special
+2014-06-25 11:05:37,865 - pytest_plugin.pytest_erp_plugin - INFO - Session is finished.
+2014-06-25 11:06:34,456 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 53aa8308e4b0d0d5e6c496b4, project name default_project, suite name default_suite
+2014-06-25 11:06:35,536 - use_plugin.test_something.test_sm1 - INFO - test
+2014-06-25 11:06:35,537 - use_plugin.test_something.test_sm1 - ERROR - mega error
+2014-06-25 11:06:36,530 - use_plugin.test_something.test_sm1 - INFO - Nothing special
+2014-06-25 11:06:37,757 - pytest_plugin.pytest_erp_plugin - INFO - Session is finished.
+2014-06-25 11:09:10,617 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 53aa83a5e4b0d0d5e6c496dd, project name default_project, suite name default_suite
+2014-06-25 11:09:11,635 - use_plugin.test_something.test_sm1 - INFO - test
+2014-06-25 11:09:11,636 - use_plugin.test_something.test_sm1 - ERROR - mega error
+2014-06-25 11:09:12,665 - use_plugin.test_something.test_sm1 - INFO - Nothing special
+2014-06-25 11:09:22,793 - pytest_plugin.mapping_fixture_action - ERROR - Problems with finalizer occured, please check list <class 'pytest_plugin.mapping_fixture_action.ItemState'> and item test_smth2pkg test_smth3.py
+Traceback (most recent call last):
+  File "/Users/kiryl_zayets/Dropbox/Python/report_portal/pytest_plugin/mapping_fixture_action.py", line 67, in deactivate
+    raise NothingFound('No one finalizer is found in the list {0}. Was trying to found {1}'.format(cls, repr))
+pytest_plugin.custom_exceptions.NothingFound: No one finalizer is found in the list <class 'pytest_plugin.mapping_fixture_action.ItemState'>. Was trying to found test_smth2pkg test_smth3.py
+2014-06-25 11:09:22,885 - pytest_plugin.pytest_erp_plugin - INFO - Session is finished.
+2014-06-25 11:09:38,376 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 53aa83c0e4b0d0d5e6c4976e, project name default_project, suite name default_suite
+2014-06-25 11:09:39,277 - use_plugin.test_something.test_sm1 - INFO - test
+2014-06-25 11:09:39,277 - use_plugin.test_something.test_sm1 - ERROR - mega error
+2014-06-25 11:09:40,095 - use_plugin.test_something.test_sm1 - INFO - Nothing special
+2014-06-25 11:09:50,039 - pytest_plugin.mapping_fixture_action - ERROR - Problems with finalizer occured, please check list <class 'pytest_plugin.mapping_fixture_action.ItemState'> and item test_smth2pkg test_smth3.py
+Traceback (most recent call last):
+  File "/Users/kiryl_zayets/Dropbox/Python/report_portal/pytest_plugin/mapping_fixture_action.py", line 67, in deactivate
+    raise NothingFound('No one finalizer is found in the list {0}. Was trying to found {1}'.format(cls, repr))
+pytest_plugin.custom_exceptions.NothingFound: No one finalizer is found in the list <class 'pytest_plugin.mapping_fixture_action.ItemState'>. Was trying to found test_smth2pkg test_smth3.py
+2014-06-25 11:09:50,131 - pytest_plugin.pytest_erp_plugin - INFO - Session is finished.
+2014-06-25 11:11:21,376 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 53aa8427e4b0d0d5e6c497ff, project name default_project, suite name default_suite
+2014-06-25 11:11:22,350 - use_plugin.test_something.test_sm1 - INFO - test
+2014-06-25 11:11:22,351 - use_plugin.test_something.test_sm1 - ERROR - mega error
+2014-06-25 11:11:23,195 - use_plugin.test_something.test_sm1 - INFO - Nothing special
+2014-06-25 11:11:32,000 - pytest_plugin.mapping_fixture_action - ERROR - Problems with finalizer occured, please check list <class 'pytest_plugin.mapping_fixture_action.ItemState'> and item test_smth2pkg test_smth3.py
+Traceback (most recent call last):
+  File "/Users/kiryl_zayets/Dropbox/Python/report_portal/pytest_plugin/mapping_fixture_action.py", line 67, in deactivate
+    raise NothingFound('No one finalizer is found in the list {0}. Was trying to found {1}'.format(cls, repr))
+pytest_plugin.custom_exceptions.NothingFound: No one finalizer is found in the list <class 'pytest_plugin.mapping_fixture_action.ItemState'>. Was trying to found test_smth2pkg test_smth3.py
+2014-06-25 11:11:32,090 - pytest_plugin.pytest_erp_plugin - INFO - Session is finished.
+2014-06-25 11:19:42,488 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 53aa861ce4b0d0d5e6c49890, project name default_project, suite name default_suite
+2014-06-25 11:19:43,446 - use_plugin.test_something.test_sm1 - INFO - test
+2014-06-25 11:19:43,447 - use_plugin.test_something.test_sm1 - ERROR - mega error
+2014-06-25 11:19:44,520 - use_plugin.test_something.test_sm1 - INFO - Nothing special
+2014-06-25 11:19:52,998 - pytest_plugin.mapping_fixture_action - ERROR - Problems with finalizer occured, please check list <class 'pytest_plugin.mapping_fixture_action.ItemState'> and item test_smth2pkg test_smth3.py
+Traceback (most recent call last):
+  File "/Users/kiryl_zayets/Dropbox/Python/report_portal/pytest_plugin/mapping_fixture_action.py", line 67, in deactivate
+    raise NothingFound('No one finalizer is found in the list {0}. Was trying to found {1}'.format(cls, repr))
+pytest_plugin.custom_exceptions.NothingFound: No one finalizer is found in the list <class 'pytest_plugin.mapping_fixture_action.ItemState'>. Was trying to found test_smth2pkg test_smth3.py
+2014-06-25 11:19:53,092 - pytest_plugin.pytest_erp_plugin - INFO - Session is finished.
+2014-06-25 11:50:54,232 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 53aa8d6ce4b0d0d5e6c49950, project name default_project, suite name default_suite
+2014-06-25 11:51:47,061 - use_plugin.test_something.test_sm1 - INFO - test
+2014-06-25 11:51:47,062 - use_plugin.test_something.test_sm1 - ERROR - mega error
+2014-06-25 16:47:08,805 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 53aad2dbe4b0222f6b3875a4, project name default_project, suite name default_suite
+2014-06-25 16:47:10,712 - use_plugin.test_something.test_sm1 - INFO - test
+2014-06-25 16:47:10,713 - use_plugin.test_something.test_sm1 - ERROR - mega error
+2014-06-25 16:47:12,198 - use_plugin.test_something.test_sm1 - INFO - Nothing special
+2014-06-25 16:47:14,008 - use_plugin.test_something.test_sm1 - INFO - Super duper
+2014-06-25 16:47:27,368 - pytest_plugin.mapping_fixture_action - ERROR - Problems with finalizer occured, please check list <class 'pytest_plugin.mapping_fixture_action.ItemState'> and item test_smth2pkg test_smth3.py
+Traceback (most recent call last):
+  File "/Users/kiryl_zayets/Dropbox/Python/report_portal/pytest_plugin/mapping_fixture_action.py", line 67, in deactivate
+    raise NothingFound('No one finalizer is found in the list {0}. Was trying to found {1}'.format(cls, repr))
+pytest_plugin.custom_exceptions.NothingFound: No one finalizer is found in the list <class 'pytest_plugin.mapping_fixture_action.ItemState'>. Was trying to found test_smth2pkg test_smth3.py
+2014-06-25 16:47:27,539 - pytest_plugin.pytest_erp_plugin - INFO - Session is finished.
+2014-06-25 16:55:56,158 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 53aad4eae4b0222f6b38763a, project name default_project, suite name default_suite
+2014-06-25 16:55:57,348 - use_plugin.test_something.test_sm1 - INFO - test
+2014-06-25 16:55:57,348 - use_plugin.test_something.test_sm1 - ERROR - mega error
+2014-06-25 16:55:58,517 - use_plugin.test_something.test_sm1 - INFO - Nothing special
+2014-06-25 16:55:59,966 - use_plugin.test_something.test_sm1 - INFO - Super duper
+2014-06-25 16:56:10,926 - pytest_plugin.mapping_fixture_action - ERROR - Problems with finalizer occured, please check list <class 'pytest_plugin.mapping_fixture_action.ItemState'> and item test_smth2pkg test_smth3.py
+Traceback (most recent call last):
+  File "/Users/kiryl_zayets/Dropbox/Python/report_portal/pytest_plugin/mapping_fixture_action.py", line 67, in deactivate
+    raise NothingFound('No one finalizer is found in the list {0}. Was trying to found {1}'.format(cls, repr))
+pytest_plugin.custom_exceptions.NothingFound: No one finalizer is found in the list <class 'pytest_plugin.mapping_fixture_action.ItemState'>. Was trying to found test_smth2pkg test_smth3.py
+2014-06-25 16:56:11,027 - pytest_plugin.pytest_erp_plugin - INFO - Session is finished.
+2014-06-25 16:57:36,569 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 53aad54fe4b0222f6b3876d0, project name default_project, suite name default_suite
+2014-06-25 16:57:37,613 - use_plugin.test_something.test_sm1 - INFO - test
+2014-06-25 16:57:37,614 - use_plugin.test_something.test_sm1 - ERROR - mega error
+2014-06-25 16:57:38,802 - use_plugin.test_something.test_sm1 - INFO - Nothing special
+2014-06-25 16:57:40,015 - use_plugin.test_something.test_sm1 - INFO - Super duper
+2014-06-25 16:57:49,693 - pytest_plugin.mapping_fixture_action - ERROR - Problems with finalizer occured, please check list <class 'pytest_plugin.mapping_fixture_action.ItemState'> and item test_smth2pkg test_smth3.py
+Traceback (most recent call last):
+  File "/Users/kiryl_zayets/Dropbox/Python/report_portal/pytest_plugin/mapping_fixture_action.py", line 67, in deactivate
+    raise NothingFound('No one finalizer is found in the list {0}. Was trying to found {1}'.format(cls, repr))
+pytest_plugin.custom_exceptions.NothingFound: No one finalizer is found in the list <class 'pytest_plugin.mapping_fixture_action.ItemState'>. Was trying to found test_smth2pkg test_smth3.py
+2014-06-25 16:57:49,825 - pytest_plugin.pytest_erp_plugin - INFO - Session is finished.
+2014-06-25 17:02:21,809 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 53aad66ce4b0222f6b38776a, project name default_project, suite name default_suite
+2014-06-25 17:04:00,198 - use_plugin.test_something.test_sm1 - INFO - test
+2014-06-25 17:04:00,199 - use_plugin.test_something.test_sm1 - ERROR - mega error
+2014-06-25 17:04:03,309 - use_plugin.test_something.test_sm1 - INFO - Nothing special
+2014-06-25 17:04:09,466 - use_plugin.test_something.test_sm1 - INFO - Super duper
+2014-06-25 17:10:32,788 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 53aad857e4b0222f6b3877af, project name default_project, suite name default_suite
+2014-06-25 17:10:37,928 - use_plugin.test_something.test_sm1 - INFO - test
+2014-06-25 17:10:37,930 - use_plugin.test_something.test_sm1 - ERROR - mega error
+2014-06-25 17:11:41,644 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 53aad89ce4b0222f6b3877c8, project name default_project, suite name default_suite
+2014-06-25 17:11:42,916 - use_plugin.test_something.test_sm1 - INFO - test
+2014-06-25 17:11:42,917 - use_plugin.test_something.test_sm1 - ERROR - mega error
+2014-06-25 17:11:44,307 - use_plugin.test_something.test_sm1 - INFO - Nothing special
+2014-06-25 17:11:45,599 - use_plugin.test_something.test_sm1 - INFO - Super duper
+2014-06-25 17:11:55,308 - pytest_plugin.mapping_fixture_action - ERROR - Problems with finalizer occured, please check list <class 'pytest_plugin.mapping_fixture_action.ItemState'> and item test_smth2pkg test_smth3.py
+Traceback (most recent call last):
+  File "/Users/kiryl_zayets/Dropbox/Python/report_portal/pytest_plugin/mapping_fixture_action.py", line 67, in deactivate
+    raise NothingFound('No one finalizer is found in the list {0}. Was trying to found {1}'.format(cls, repr))
+pytest_plugin.custom_exceptions.NothingFound: No one finalizer is found in the list <class 'pytest_plugin.mapping_fixture_action.ItemState'>. Was trying to found test_smth2pkg test_smth3.py
+2014-06-25 17:11:55,395 - pytest_plugin.pytest_erp_plugin - INFO - Session is finished.
+2014-06-25 17:12:56,895 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 53aad8e7e4b0222f6b387861, project name default_project, suite name default_suite
+2014-06-25 17:12:58,175 - use_plugin.test_something.test_sm1 - INFO - test
+2014-06-25 17:12:58,175 - use_plugin.test_something.test_sm1 - ERROR - mega error
+2014-06-25 17:12:59,334 - use_plugin.test_something.test_sm1 - INFO - Nothing special
+2014-06-25 17:13:00,643 - use_plugin.test_something.test_sm1 - INFO - Super duper
+2014-06-25 17:13:10,638 - pytest_plugin.mapping_fixture_action - ERROR - Problems with finalizer occured, please check list <class 'pytest_plugin.mapping_fixture_action.ItemState'> and item test_smth2pkg test_smth3.py
+Traceback (most recent call last):
+  File "/Users/kiryl_zayets/Dropbox/Python/report_portal/pytest_plugin/mapping_fixture_action.py", line 67, in deactivate
+    raise NothingFound('No one finalizer is found in the list {0}. Was trying to found {1}'.format(cls, repr))
+pytest_plugin.custom_exceptions.NothingFound: No one finalizer is found in the list <class 'pytest_plugin.mapping_fixture_action.ItemState'>. Was trying to found test_smth2pkg test_smth3.py
+2014-06-25 17:13:10,766 - pytest_plugin.pytest_erp_plugin - INFO - Session is finished.
+2014-06-25 17:14:38,473 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 53aad94ce4b0222f6b3878fa, project name default_project, suite name default_suite
+2014-06-25 17:14:46,593 - pytest_plugin.mapping_fixture_action - ERROR - Problems with finalizer occured, please check list <class 'pytest_plugin.mapping_fixture_action.ItemState'> and item test_smth2pkg test_smth3.py
+Traceback (most recent call last):
+  File "/Users/kiryl_zayets/Dropbox/Python/report_portal/pytest_plugin/mapping_fixture_action.py", line 67, in deactivate
+    raise NothingFound('No one finalizer is found in the list {0}. Was trying to found {1}'.format(cls, repr))
+pytest_plugin.custom_exceptions.NothingFound: No one finalizer is found in the list <class 'pytest_plugin.mapping_fixture_action.ItemState'>. Was trying to found test_smth2pkg test_smth3.py
+2014-06-25 17:14:46,711 - pytest_plugin.pytest_erp_plugin - INFO - Session is finished.
+2014-06-25 17:16:15,842 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 53aad9aee4b0222f6b38793d, project name default_project, suite name default_suite
+2014-06-25 17:16:24,259 - pytest_plugin.mapping_fixture_action - ERROR - Problems with finalizer occured, please check list <class 'pytest_plugin.mapping_fixture_action.ItemState'> and item test_smth2pkg test_smth3.py
+Traceback (most recent call last):
+  File "/Users/kiryl_zayets/Dropbox/Python/report_portal/pytest_plugin/mapping_fixture_action.py", line 67, in deactivate
+    raise NothingFound('No one finalizer is found in the list {0}. Was trying to found {1}'.format(cls, repr))
+pytest_plugin.custom_exceptions.NothingFound: No one finalizer is found in the list <class 'pytest_plugin.mapping_fixture_action.ItemState'>. Was trying to found test_smth2pkg test_smth3.py
+2014-06-25 17:16:24,360 - pytest_plugin.pytest_erp_plugin - INFO - Session is finished.
+2014-06-25 17:16:48,359 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 53aad9cee4b0222f6b38798d, project name default_project, suite name default_suite
+2014-06-25 17:16:51,053 - use_plugin.test_something.test_sm1 - INFO - Nothing special
+2014-06-25 17:17:03,022 - pytest_plugin.mapping_fixture_action - ERROR - Problems with finalizer occured, please check list <class 'pytest_plugin.mapping_fixture_action.ItemState'> and item test_smth2pkg test_smth3.py
+Traceback (most recent call last):
+  File "/Users/kiryl_zayets/Dropbox/Python/report_portal/pytest_plugin/mapping_fixture_action.py", line 67, in deactivate
+    raise NothingFound('No one finalizer is found in the list {0}. Was trying to found {1}'.format(cls, repr))
+pytest_plugin.custom_exceptions.NothingFound: No one finalizer is found in the list <class 'pytest_plugin.mapping_fixture_action.ItemState'>. Was trying to found test_smth2pkg test_smth3.py
+2014-06-25 17:17:03,144 - pytest_plugin.pytest_erp_plugin - INFO - Session is finished.
+2014-06-25 17:18:19,035 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 53aada29e4b0222f6b387a24, project name default_project, suite name default_suite
+2014-06-25 17:18:21,698 - use_plugin.test_something.test_sm1 - INFO - Nothing special
+2014-06-25 17:18:33,289 - pytest_plugin.mapping_fixture_action - ERROR - Problems with finalizer occured, please check list <class 'pytest_plugin.mapping_fixture_action.ItemState'> and item test_smth2pkg test_smth3.py
+Traceback (most recent call last):
+  File "/Users/kiryl_zayets/Dropbox/Python/report_portal/pytest_plugin/mapping_fixture_action.py", line 67, in deactivate
+    raise NothingFound('No one finalizer is found in the list {0}. Was trying to found {1}'.format(cls, repr))
+pytest_plugin.custom_exceptions.NothingFound: No one finalizer is found in the list <class 'pytest_plugin.mapping_fixture_action.ItemState'>. Was trying to found test_smth2pkg test_smth3.py
+2014-06-25 17:18:33,548 - pytest_plugin.pytest_erp_plugin - INFO - Session is finished.
+2014-06-25 17:56:57,661 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 53aae338e4b0222f6b387ac6, project name default_project, suite name default_suite
+2014-06-25 18:00:04,906 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 53aae3f3e4b0222f6b387ad4, project name default_project, suite name default_suite
+2014-06-25 18:00:07,273 - use_plugin.test_something.test_sm1 - INFO - Nothing special
+2014-06-25 18:00:18,104 - pytest_plugin.mapping_fixture_action - ERROR - Problems with finalizer occured, please check list <class 'pytest_plugin.mapping_fixture_action.ItemState'> and item test_smth2pkg test_smth3.py
+Traceback (most recent call last):
+  File "/Users/kiryl_zayets/Dropbox/Python/report_portal/pytest_plugin/mapping_fixture_action.py", line 67, in deactivate
+    raise NothingFound('No one finalizer is found in the list {0}. Was trying to found {1}'.format(cls, repr))
+pytest_plugin.custom_exceptions.NothingFound: No one finalizer is found in the list <class 'pytest_plugin.mapping_fixture_action.ItemState'>. Was trying to found test_smth2pkg test_smth3.py
+2014-06-25 18:00:18,237 - pytest_plugin.pytest_erp_plugin - INFO - Session is finished.
+2014-06-25 18:03:44,754 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 53aae4cfe4b0222f6b387b6b, project name default_project, suite name default_suite
+2014-06-25 18:03:46,732 - pytest_plugin.pytest_erp_plugin - INFO - Session is finished.
+2014-06-25 18:04:13,356 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 53aae4ebe4b0222f6b387b84, project name default_project, suite name default_suite
+2014-06-25 18:05:02,497 - pytest_plugin.pytest_erp_plugin - INFO - Session is finished.
+2014-06-25 18:06:08,727 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 53aae55fe4b0222f6b387b9d, project name default_project, suite name default_suite
+2014-06-25 18:06:10,975 - use_plugin.test_something.test_sm1 - INFO - Nothing special
+2014-06-25 18:06:22,064 - pytest_plugin.mapping_fixture_action - ERROR - Problems with finalizer occured, please check list <class 'pytest_plugin.mapping_fixture_action.ItemState'> and item test_smth2pkg test_smth3.py
+Traceback (most recent call last):
+  File "/Users/kiryl_zayets/Dropbox/Python/report_portal/pytest_plugin/mapping_fixture_action.py", line 67, in deactivate
+    raise NothingFound('No one finalizer is found in the list {0}. Was trying to found {1}'.format(cls, repr))
+pytest_plugin.custom_exceptions.NothingFound: No one finalizer is found in the list <class 'pytest_plugin.mapping_fixture_action.ItemState'>. Was trying to found test_smth2pkg test_smth3.py
+2014-06-25 18:06:22,384 - pytest_plugin.pytest_erp_plugin - INFO - Session is finished.
+2014-06-25 18:08:06,934 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 53aae5d5e4b0222f6b387c31, project name default_project, suite name default_suite
+2014-06-25 18:08:08,999 - use_plugin.test_something.test_sm1 - INFO - Nothing special
+2014-06-25 18:08:19,610 - pytest_plugin.mapping_fixture_action - ERROR - Problems with finalizer occured, please check list <class 'pytest_plugin.mapping_fixture_action.ItemState'> and item test_smth2pkg test_smth3.py
+Traceback (most recent call last):
+  File "/Users/kiryl_zayets/Dropbox/Python/report_portal/pytest_plugin/mapping_fixture_action.py", line 67, in deactivate
+    raise NothingFound('No one finalizer is found in the list {0}. Was trying to found {1}'.format(cls, repr))
+pytest_plugin.custom_exceptions.NothingFound: No one finalizer is found in the list <class 'pytest_plugin.mapping_fixture_action.ItemState'>. Was trying to found test_smth2pkg test_smth3.py
+2014-06-25 18:08:19,701 - pytest_plugin.pytest_erp_plugin - INFO - Session is finished.
+2014-06-25 18:11:54,533 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 53aae6b9e4b0222f6b387cc8, project name default_project, suite name default_suite
+2014-06-25 18:13:44,696 - use_plugin.test_something.test_sm1 - INFO - Nothing special
+2014-06-26 12:52:58,603 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 53abed79e4b0f1b78e2427fd, project name default_project, suite name default_suite
+2014-06-26 12:54:18,629 - use_plugin.test_something.test_sm1 - INFO - Nothing special
+2014-06-26 12:55:01,336 - pytest_plugin.mapping_fixture_action - ERROR - Problems with finalizer occured, please check list <class 'pytest_plugin.mapping_fixture_action.ItemState'> and item test_smth2pkg test_smth3.py
+Traceback (most recent call last):
+  File "/Users/kiryl_zayets/Dropbox/Python/report_portal/pytest_plugin/mapping_fixture_action.py", line 67, in deactivate
+    raise NothingFound('No one finalizer is found in the list {0}. Was trying to found {1}'.format(cls, repr))
+pytest_plugin.custom_exceptions.NothingFound: No one finalizer is found in the list <class 'pytest_plugin.mapping_fixture_action.ItemState'>. Was trying to found test_smth2pkg test_smth3.py
+2014-06-26 12:55:02,257 - pytest_plugin.pytest_erp_plugin - INFO - Session is finished.
+2014-06-26 12:57:13,918 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 53abee78e4b0f1b78e242894, project name default_project, suite name default_suite
+2014-06-26 12:57:28,967 - use_plugin.test_something.test_sm1 - INFO - Nothing special
+2014-06-26 12:57:51,486 - pytest_plugin.mapping_fixture_action - ERROR - Problems with finalizer occured, please check list <class 'pytest_plugin.mapping_fixture_action.ItemState'> and item test_smth2pkg test_smth3.py
+Traceback (most recent call last):
+  File "/Users/kiryl_zayets/Dropbox/Python/report_portal/pytest_plugin/mapping_fixture_action.py", line 67, in deactivate
+    raise NothingFound('No one finalizer is found in the list {0}. Was trying to found {1}'.format(cls, repr))
+pytest_plugin.custom_exceptions.NothingFound: No one finalizer is found in the list <class 'pytest_plugin.mapping_fixture_action.ItemState'>. Was trying to found test_smth2pkg test_smth3.py
+2014-06-26 12:57:52,448 - pytest_plugin.pytest_erp_plugin - INFO - Session is finished.
+2014-06-26 12:58:23,133 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 53abeebde4b0f1b78e24292b, project name default_project, suite name default_suite
+2014-06-26 12:58:35,096 - root - INFO - Nothing special
+2014-06-26 12:58:53,620 - pytest_plugin.mapping_fixture_action - ERROR - Problems with finalizer occured, please check list <class 'pytest_plugin.mapping_fixture_action.ItemState'> and item test_smth2pkg test_smth3.py
+Traceback (most recent call last):
+  File "/Users/kiryl_zayets/Dropbox/Python/report_portal/pytest_plugin/mapping_fixture_action.py", line 67, in deactivate
+    raise NothingFound('No one finalizer is found in the list {0}. Was trying to found {1}'.format(cls, repr))
+pytest_plugin.custom_exceptions.NothingFound: No one finalizer is found in the list <class 'pytest_plugin.mapping_fixture_action.ItemState'>. Was trying to found test_smth2pkg test_smth3.py
+2014-06-26 12:58:54,523 - pytest_plugin.pytest_erp_plugin - INFO - Session is finished.
+2014-06-26 13:00:13,985 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 53abef2ce4b0f1b78e2429c2, project name default_project, suite name default_suite
+2014-12-23 13:52:55,872 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 54994987e4b05498a681301d, project name default_project, suite name default_suite
+2014-12-23 13:52:58,502 - pytest_plugin.pytest_erp_plugin - INFO - Nothing special
+2014-12-23 13:53:11,284 - pytest_plugin.mapping_fixture_action - ERROR - Problems with finalizer occured, please check list <class 'pytest_plugin.mapping_fixture_action.ItemState'> and item test_smth2pkg test_smth3.py
+Traceback (most recent call last):
+  File "/Users/kiryl_zayets/Dropbox/Python/report_portal/pytest_plugin/mapping_fixture_action.py", line 67, in deactivate
+    raise NothingFound('No one finalizer is found in the list {0}. Was trying to found {1}'.format(cls, repr))
+pytest_plugin.custom_exceptions.NothingFound: No one finalizer is found in the list <class 'pytest_plugin.mapping_fixture_action.ItemState'>. Was trying to found test_smth2pkg test_smth3.py
+2014-12-23 13:53:11,385 - pytest_plugin.pytest_erp_plugin - INFO - Session is finished.
+2015-01-13 12:09:01,376 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 54b4e0ace4b04112d02febaf, project name default_project, suite name default_suite
+2015-01-13 12:09:04,777 - pytest_plugin.pytest_erp_plugin - INFO - Nothing special
+2015-01-13 12:10:42,049 - pytest_plugin.mapping_fixture_action - ERROR - Problems with finalizer occured, please check list <class 'pytest_plugin.mapping_fixture_action.ItemState'> and item test_smth2pkg test_smth3.py
+Traceback (most recent call last):
+  File "/Users/kiryl_zayets/Dropbox/Python/report_portal/pytest_plugin/mapping_fixture_action.py", line 67, in deactivate
+    raise NothingFound('No one finalizer is found in the list {0}. Was trying to found {1}'.format(cls, repr))
+pytest_plugin.custom_exceptions.NothingFound: No one finalizer is found in the list <class 'pytest_plugin.mapping_fixture_action.ItemState'>. Was trying to found test_smth2pkg test_smth3.py
+2015-01-13 12:10:42,376 - pytest_plugin.pytest_erp_plugin - INFO - Session is finished.
+2015-01-13 12:14:37,577 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 54b4e1b1e4b07b05aeeee695, project name default_project, suite name default_suite
+2015-01-13 12:14:44,717 - pytest_plugin.pytest_erp_plugin - INFO - Nothing special
+2015-01-13 12:15:24,165 - pytest_plugin.mapping_fixture_action - ERROR - Problems with finalizer occured, please check list <class 'pytest_plugin.mapping_fixture_action.ItemState'> and item test_smth2pkg test_smth3.py
+Traceback (most recent call last):
+  File "/Users/kiryl_zayets/Dropbox/Python/report_portal/pytest_plugin/mapping_fixture_action.py", line 67, in deactivate
+    raise NothingFound('No one finalizer is found in the list {0}. Was trying to found {1}'.format(cls, repr))
+pytest_plugin.custom_exceptions.NothingFound: No one finalizer is found in the list <class 'pytest_plugin.mapping_fixture_action.ItemState'>. Was trying to found test_smth2pkg test_smth3.py
+2015-01-13 12:15:24,524 - pytest_plugin.pytest_erp_plugin - INFO - Session is finished.
+2015-01-13 12:27:40,398 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 54b4e3f8e4b07b05aeeeeffb, project name default_project, suite name default_suite
+2015-01-13 12:29:30,158 - pytest_plugin.pytest_erp_plugin - INFO - Nothing special
+2015-01-13 12:30:22,207 - pytest_plugin.mapping_fixture_action - ERROR - Problems with finalizer occured, please check list <class 'pytest_plugin.mapping_fixture_action.ItemState'> and item test_smth2pkg test_smth3.py
+Traceback (most recent call last):
+  File "/Users/kiryl_zayets/Dropbox/Python/report_portal/pytest_plugin/mapping_fixture_action.py", line 67, in deactivate
+    raise NothingFound('No one finalizer is found in the list {0}. Was trying to found {1}'.format(cls, repr))
+pytest_plugin.custom_exceptions.NothingFound: No one finalizer is found in the list <class 'pytest_plugin.mapping_fixture_action.ItemState'>. Was trying to found test_smth2pkg test_smth3.py
+2015-01-13 12:30:22,694 - pytest_plugin.pytest_erp_plugin - INFO - Session is finished.
+2015-01-13 12:37:39,952 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 54b4e717e4b07b05aeeefb9a, project name default_project, suite name default_suite
+2015-01-13 12:38:59,005 - pytest_plugin.pytest_erp_plugin - INFO - Nothing special
+2015-01-13 12:39:51,368 - pytest_plugin.mapping_fixture_action - ERROR - Problems with finalizer occured, please check list <class 'pytest_plugin.mapping_fixture_action.ItemState'> and item test_smth2pkg test_smth3.py
+Traceback (most recent call last):
+  File "/Users/kiryl_zayets/Dropbox/Python/report_portal/pytest_plugin/mapping_fixture_action.py", line 67, in deactivate
+    raise NothingFound('No one finalizer is found in the list {0}. Was trying to found {1}'.format(cls, repr))
+pytest_plugin.custom_exceptions.NothingFound: No one finalizer is found in the list <class 'pytest_plugin.mapping_fixture_action.ItemState'>. Was trying to found test_smth2pkg test_smth3.py
+2015-01-13 12:47:02,635 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 54b4e94ae4b07b05aeeefe5a, project name default_project, suite name default_suite
+2015-01-13 12:47:08,772 - pytest_plugin.pytest_erp_plugin - INFO - Nothing special
+2015-01-13 12:47:59,678 - pytest_plugin.mapping_fixture_action - ERROR - Problems with finalizer occured, please check list <class 'pytest_plugin.mapping_fixture_action.ItemState'> and item test_smth2pkg test_smth3.py
+Traceback (most recent call last):
+  File "/Users/kiryl_zayets/Dropbox/Python/report_portal/pytest_plugin/mapping_fixture_action.py", line 67, in deactivate
+    raise NothingFound('No one finalizer is found in the list {0}. Was trying to found {1}'.format(cls, repr))
+pytest_plugin.custom_exceptions.NothingFound: No one finalizer is found in the list <class 'pytest_plugin.mapping_fixture_action.ItemState'>. Was trying to found test_smth2pkg test_smth3.py
+2015-01-13 12:48:00,611 - pytest_plugin.pytest_erp_plugin - INFO - Session is finished.
+2015-01-13 12:52:30,511 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 54b4ea91e4b07b05aeef0013, project name default_project, suite name default_suite
+2015-01-13 13:10:26,668 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 54b4eec5e4b07b05aeef06a0, project name default_project, suite name default_suite
+2015-01-13 13:18:12,729 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 54b4f097e4b07b05aeef0a87, project name default_project, suite name default_suite
+2015-01-13 13:18:22,365 - pytest_plugin.pytest_erp_plugin - INFO - Nothing special
+2015-01-13 13:19:33,407 - pytest_plugin.mapping_fixture_action - ERROR - Problems with finalizer occured, please check list <class 'pytest_plugin.mapping_fixture_action.ItemState'> and item test_smth2pkg test_smth3.py
+Traceback (most recent call last):
+  File "/Users/kiryl_zayets/Dropbox/Python/report_portal/pytest_plugin/mapping_fixture_action.py", line 67, in deactivate
+    raise NothingFound('No one finalizer is found in the list {0}. Was trying to found {1}'.format(cls, repr))
+pytest_plugin.custom_exceptions.NothingFound: No one finalizer is found in the list <class 'pytest_plugin.mapping_fixture_action.ItemState'>. Was trying to found test_smth2pkg test_smth3.py
+2015-01-13 13:27:40,268 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 54b4f2cfe4b07b05aeef116d, project name default_project, suite name default_suite
+2015-01-13 13:27:46,731 - pytest_plugin.pytest_erp_plugin - INFO - Nothing special
+2015-01-13 13:29:14,927 - pytest_plugin.mapping_fixture_action - ERROR - Problems with finalizer occured, please check list <class 'pytest_plugin.mapping_fixture_action.ItemState'> and item test_smth2pkg test_smth3.py
+Traceback (most recent call last):
+  File "/Users/kiryl_zayets/Dropbox/Python/report_portal/pytest_plugin/mapping_fixture_action.py", line 67, in deactivate
+    raise NothingFound('No one finalizer is found in the list {0}. Was trying to found {1}'.format(cls, repr))
+pytest_plugin.custom_exceptions.NothingFound: No one finalizer is found in the list <class 'pytest_plugin.mapping_fixture_action.ItemState'>. Was trying to found test_smth2pkg test_smth3.py
+2015-01-13 13:29:15,310 - pytest_plugin.pytest_erp_plugin - INFO - Session is finished.
+2015-01-20 10:08:02,697 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 54bdfe7de4b02ab6bdb318ac, project name default_project, suite name default_suite
+2015-01-20 10:08:09,234 - pytest_plugin.pytest_erp_plugin - INFO - Nothing special
+2015-01-20 10:08:56,022 - pytest_plugin.mapping_fixture_action - ERROR - Problems with finalizer occured, please check list <class 'pytest_plugin.mapping_fixture_action.ItemState'> and item test_smth2pkg test_smth3.py
+Traceback (most recent call last):
+  File "/Users/kiryl_zayets/Dropbox/Python/report_portal/pytest_plugin/mapping_fixture_action.py", line 67, in deactivate
+    raise NothingFound('No one finalizer is found in the list {0}. Was trying to found {1}'.format(cls, repr))
+pytest_plugin.custom_exceptions.NothingFound: No one finalizer is found in the list <class 'pytest_plugin.mapping_fixture_action.ItemState'>. Was trying to found test_smth2pkg test_smth3.py
+2015-01-20 10:08:56,347 - pytest_plugin.pytest_erp_plugin - INFO - Session is finished.
+2015-01-20 10:20:35,011 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 54be016de4b02ab6bdb3232a, project name default_project, suite name default_suite
+2015-01-20 10:28:10,948 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 54be0335e4b02ab6bdb32cec, project name default_project, suite name default_suite
+2015-01-20 11:28:55,087 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 54be1171e4b02ab6bdb35614, project name default_project, suite name default_suite
+2015-01-20 11:29:01,337 - pytest_plugin.pytest_erp_plugin - INFO - Nothing special
+2015-01-20 11:30:28,286 - pytest_plugin.mapping_fixture_action - ERROR - Problems with finalizer occured, please check list <class 'pytest_plugin.mapping_fixture_action.ItemState'> and item test_smth2pkg test_smth3.py
+Traceback (most recent call last):
+  File "/Users/kiryl_zayets/Dropbox/Python/report_portal/pytest_plugin/mapping_fixture_action.py", line 67, in deactivate
+    raise NothingFound('No one finalizer is found in the list {0}. Was trying to found {1}'.format(cls, repr))
+pytest_plugin.custom_exceptions.NothingFound: No one finalizer is found in the list <class 'pytest_plugin.mapping_fixture_action.ItemState'>. Was trying to found test_smth2pkg test_smth3.py
+2015-01-20 11:30:29,391 - pytest_plugin.pytest_erp_plugin - INFO - Session is finished.
+2015-01-20 11:49:39,404 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 54be164de4b02ab6bdb35f23, project name default_project, suite name default_suite
+2015-01-20 11:50:10,610 - pytest_plugin.mapping_fixture_action - ERROR - Problems with finalizer occured, please check list <class 'pytest_plugin.mapping_fixture_action.ItemState'> and item test_smth2pkg test_smth3.py
+Traceback (most recent call last):
+  File "/Users/kiryl_zayets/Dropbox/Python/report_portal/pytest_plugin/mapping_fixture_action.py", line 67, in deactivate
+    raise NothingFound('No one finalizer is found in the list {0}. Was trying to found {1}'.format(cls, repr))
+pytest_plugin.custom_exceptions.NothingFound: No one finalizer is found in the list <class 'pytest_plugin.mapping_fixture_action.ItemState'>. Was trying to found test_smth2pkg test_smth3.py
+2015-01-20 11:50:10,923 - pytest_plugin.pytest_erp_plugin - INFO - Session is finished.
+2015-01-20 11:56:35,458 - pytest_plugin.pytest_erp_plugin - INFO - Session is started. Launch num 54be17ede4b02ab6bdb36354, project name default_project, suite name default_suite
+2015-01-20 11:57:08,451 - pytest_plugin.mapping_fixture_action - ERROR - Problems with finalizer occured, please check list <class 'pytest_plugin.mapping_fixture_action.ItemState'> and item test_smth2pkg test_smth3.py
+Traceback (most recent call last):
+  File "/Users/kiryl_zayets/Dropbox/Python/report_portal/pytest_plugin/mapping_fixture_action.py", line 67, in deactivate
+    raise NothingFound('No one finalizer is found in the list {0}. Was trying to found {1}'.format(cls, repr))
+pytest_plugin.custom_exceptions.NothingFound: No one finalizer is found in the list <class 'pytest_plugin.mapping_fixture_action.ItemState'>. Was trying to found test_smth2pkg test_smth3.py
+2015-01-20 11:57:08,825 - pytest_plugin.pytest_erp_plugin - INFO - Session is finished.

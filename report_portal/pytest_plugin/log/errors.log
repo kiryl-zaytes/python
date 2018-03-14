@@ -1,0 +1,421 @@
+2014-06-23 11:46:50,112 - pytest_plugin.mapping_fixture_action - ERROR - Problems with finalizer occured, please check list <class 'pytest_plugin.mapping_fixture_action.ItemState'> and item test_smth2pkg test_smth3.py
+Traceback (most recent call last):
+  File "/Users/kiryl_zayets/Dropbox/Python/report_portal/pytest_plugin/mapping_fixture_action.py", line 62, in deactivate
+    raise NothingFound('No one finalizer is found in the list {0}. Was trying to found {1}'.format(cls, repr))
+pytest_plugin.custom_exceptions.NothingFound: No one finalizer is found in the list <class 'pytest_plugin.mapping_fixture_action.ItemState'>. Was trying to found test_smth2pkg test_smth3.py
+2014-06-23 11:49:21,493 - pytest_plugin.mapping_fixture_action - ERROR - Problems with finalizer occured, please check list <class 'pytest_plugin.mapping_fixture_action.ItemState'> and item test_smth2pkg test_smth3.py
+Traceback (most recent call last):
+  File "/Users/kiryl_zayets/Dropbox/Python/report_portal/pytest_plugin/mapping_fixture_action.py", line 62, in deactivate
+    raise NothingFound('No one finalizer is found in the list {0}. Was trying to found {1}'.format(cls, repr))
+pytest_plugin.custom_exceptions.NothingFound: No one finalizer is found in the list <class 'pytest_plugin.mapping_fixture_action.ItemState'>. Was trying to found test_smth2pkg test_smth3.py
+2014-06-23 12:10:26,477 - use_plugin.test_something.test_sm1 - ERROR - ererere1!!!!!
+2014-06-23 12:15:57,456 - use_plugin.test_something.test_sm1 - ERROR - ererere1!!!!!
+2014-06-23 13:14:33,566 - pytest_plugin.mapping_fixture_action - ERROR - Problems with finalizer occured, please check list <class 'pytest_plugin.mapping_fixture_action.ItemState'> and item test_usf
+Traceback (most recent call last):
+  File "/Users/kiryl_zayets/Dropbox/Python/report_portal/pytest_plugin/mapping_fixture_action.py", line 63, in deactivate
+    raise NothingFound('No one finalizer is found in the list {0}. Was trying to found {1}'.format(cls, repr))
+pytest_plugin.custom_exceptions.NothingFound: No one finalizer is found in the list <class 'pytest_plugin.mapping_fixture_action.ItemState'>. Was trying to found test_usf
+2014-06-23 13:20:26,486 - pytest_plugin.mapping_fixture_action - ERROR - Problems with finalizer occured, please check list <class 'pytest_plugin.mapping_fixture_action.ItemState'> and item test_usf
+Traceback (most recent call last):
+  File "/Users/kiryl_zayets/Dropbox/Python/report_portal/pytest_plugin/mapping_fixture_action.py", line 63, in deactivate
+    raise NothingFound('No one finalizer is found in the list {0}. Was trying to found {1}'.format(cls, repr))
+pytest_plugin.custom_exceptions.NothingFound: No one finalizer is found in the list <class 'pytest_plugin.mapping_fixture_action.ItemState'>. Was trying to found test_usf
+2014-06-23 13:31:53,089 - pytest_plugin.mapping_fixture_action - ERROR - Problems with finalizer occured, please check list <class 'pytest_plugin.mapping_fixture_action.ItemState'> and item test_usf
+Traceback (most recent call last):
+  File "/Users/kiryl_zayets/Dropbox/Python/report_portal/pytest_plugin/mapping_fixture_action.py", line 63, in deactivate
+    raise NothingFound('No one finalizer is found in the list {0}. Was trying to found {1}'.format(cls, repr))
+pytest_plugin.custom_exceptions.NothingFound: No one finalizer is found in the list <class 'pytest_plugin.mapping_fixture_action.ItemState'>. Was trying to found test_usf
+2014-06-23 13:40:02,378 - pytest_plugin.mapping_fixture_action - ERROR - Problems with finalizer occured, please check list <class 'pytest_plugin.mapping_fixture_action.ItemState'> and item test_smth2pkg test_smth3.py
+Traceback (most recent call last):
+  File "/Users/kiryl_zayets/Dropbox/Python/report_portal/pytest_plugin/mapping_fixture_action.py", line 63, in deactivate
+    raise NothingFound('No one finalizer is found in the list {0}. Was trying to found {1}'.format(cls, repr))
+pytest_plugin.custom_exceptions.NothingFound: No one finalizer is found in the list <class 'pytest_plugin.mapping_fixture_action.ItemState'>. Was trying to found test_smth2pkg test_smth3.py
+2014-06-23 13:48:39,743 - pytest_plugin.mapping_fixture_action - ERROR - Problems with finalizer occured, please check list <class 'pytest_plugin.mapping_fixture_action.ItemState'> and item test_smth2pkg test_smth3.py
+Traceback (most recent call last):
+  File "/Users/kiryl_zayets/Dropbox/Python/report_portal/pytest_plugin/mapping_fixture_action.py", line 63, in deactivate
+    raise NothingFound('No one finalizer is found in the list {0}. Was trying to found {1}'.format(cls, repr))
+pytest_plugin.custom_exceptions.NothingFound: No one finalizer is found in the list <class 'pytest_plugin.mapping_fixture_action.ItemState'>. Was trying to found test_smth2pkg test_smth3.py
+2014-06-23 13:55:39,118 - use_plugin.test_something.test_sm1 - ERROR - mega error
+2014-06-23 13:55:45,537 - pytest_plugin.mapping_fixture_action - ERROR - Problems with finalizer occured, please check list <class 'pytest_plugin.mapping_fixture_action.ItemState'> and item test_usf envelop
+Traceback (most recent call last):
+  File "/Users/kiryl_zayets/Dropbox/Python/report_portal/pytest_plugin/mapping_fixture_action.py", line 61, in deactivate
+    raise MoreThanOneFound('Several finalizers found {}'.format(current_event))
+pytest_plugin.custom_exceptions.MoreThanOneFound: Several finalizers found [<pytest_plugin.mapping_fixture_action.ItemState object at 0x1031262d0>, <pytest_plugin.mapping_fixture_action.ItemState object at 0x104935490>]
+2014-06-23 13:55:54,342 - pytest_plugin.mapping_fixture_action - ERROR - Problems with finalizer occured, please check list <class 'pytest_plugin.mapping_fixture_action.ItemState'> and item test_ufs envelop
+Traceback (most recent call last):
+  File "/Users/kiryl_zayets/Dropbox/Python/report_portal/pytest_plugin/mapping_fixture_action.py", line 61, in deactivate
+    raise MoreThanOneFound('Several finalizers found {}'.format(current_event))
+pytest_plugin.custom_exceptions.MoreThanOneFound: Several finalizers found [<pytest_plugin.mapping_fixture_action.ItemState object at 0x104a19a10>, <pytest_plugin.mapping_fixture_action.ItemState object at 0x104a19210>]
+2014-06-23 14:03:10,854 - use_plugin.test_something.test_sm1 - ERROR - mega error
+2014-06-23 14:06:15,682 - use_plugin.test_something.test_sm1 - ERROR - mega error
+2014-06-23 14:07:07,048 - use_plugin.test_something.test_sm1 - ERROR - mega error
+2014-06-23 14:11:10,339 - use_plugin.test_something.test_sm1 - ERROR - mega error
+2014-06-23 14:13:11,763 - use_plugin.test_something.test_sm1 - ERROR - mega error
+2014-06-23 14:18:10,642 - use_plugin.test_something.test_sm1 - ERROR - mega error
+2014-06-23 14:24:26,482 - use_plugin.test_something.test_sm1 - ERROR - mega error
+2014-06-23 14:27:32,776 - use_plugin.test_something.test_sm1 - ERROR - mega error
+2014-06-23 14:28:47,273 - use_plugin.test_something.test_sm1 - ERROR - mega error
+2014-06-23 14:36:02,465 - use_plugin.test_something.test_sm1 - ERROR - mega error
+2014-06-23 14:38:13,462 - use_plugin.test_something.test_sm1 - ERROR - mega error
+2014-06-23 14:40:09,812 - use_plugin.test_something.test_sm1 - ERROR - mega error
+2014-06-23 14:41:34,623 - use_plugin.test_something.test_sm1 - ERROR - mega error
+2014-06-23 14:42:48,422 - use_plugin.test_something.test_sm1 - ERROR - mega error
+2014-06-23 14:44:14,446 - use_plugin.test_something.test_sm1 - ERROR - mega error
+2014-06-23 14:44:46,704 - use_plugin.test_something.test_sm1 - ERROR - mega error
+2014-06-23 14:45:43,120 - use_plugin.test_something.test_sm1 - ERROR - mega error
+2014-06-23 14:49:04,637 - use_plugin.test_something.test_sm1 - ERROR - mega error
+2014-06-23 14:55:02,345 - use_plugin.test_something.test_sm1 - ERROR - mega error
+2014-06-23 15:31:44,140 - use_plugin.test_something.test_sm1 - ERROR - mega error
+2014-06-23 15:32:20,877 - use_plugin.test_something.test_sm1 - ERROR - mega error
+2014-06-23 15:34:31,773 - use_plugin.test_something.test_sm1 - ERROR - mega error
+2014-06-23 15:40:21,490 - use_plugin.test_something.test_sm1 - ERROR - mega error
+2014-06-23 15:43:38,405 - use_plugin.test_something.test_sm1 - ERROR - mega error
+2014-06-23 15:47:45,990 - use_plugin.test_something.test_sm1 - ERROR - mega error
+2014-06-23 15:49:21,232 - use_plugin.test_something.test_sm1 - ERROR - mega error
+2014-06-23 16:02:33,264 - use_plugin.test_something.test_sm1 - ERROR - mega error
+2014-06-23 16:02:39,602 - use_plugin.test_something.test_sm1 - ERROR - mega error
+2014-06-23 16:03:17,536 - pytest_plugin.mapping_fixture_action - ERROR - Problems with finalizer occured, please check list <class 'pytest_plugin.mapping_fixture_action.ItemState'> and item test_smth2pkg test_smth3.py
+Traceback (most recent call last):
+  File "/Users/kiryl_zayets/Dropbox/Python/report_portal/pytest_plugin/mapping_fixture_action.py", line 66, in deactivate
+    raise NothingFound('No one finalizer is found in the list {0}. Was trying to found {1}'.format(cls, repr))
+pytest_plugin.custom_exceptions.NothingFound: No one finalizer is found in the list <class 'pytest_plugin.mapping_fixture_action.ItemState'>. Was trying to found test_smth2pkg test_smth3.py
+2014-06-23 16:07:25,349 - use_plugin.test_something.test_sm1 - ERROR - mega error
+2014-06-23 16:17:32,914 - use_plugin.test_something.test_sm1 - ERROR - mega error
+2014-06-23 16:25:09,410 - use_plugin.test_something.test_sm1 - ERROR - mega error
+2014-06-23 16:57:55,506 - use_plugin.test_something.test_sm1 - ERROR - mega error
+2014-06-23 16:58:04,590 - pytest_plugin.mapping_fixture_action - ERROR - Problems with finalizer occured, please check list <class 'pytest_plugin.mapping_fixture_action.ItemState'> and item test_smth2pkg test_smth3.py
+Traceback (most recent call last):
+  File "/Users/kiryl_zayets/Dropbox/Python/report_portal/pytest_plugin/mapping_fixture_action.py", line 66, in deactivate
+    raise NothingFound('No one finalizer is found in the list {0}. Was trying to found {1}'.format(cls, repr))
+pytest_plugin.custom_exceptions.NothingFound: No one finalizer is found in the list <class 'pytest_plugin.mapping_fixture_action.ItemState'>. Was trying to found test_smth2pkg test_smth3.py
+2014-06-23 17:07:50,502 - use_plugin.test_something.test_sm1 - ERROR - mega error
+2014-06-23 17:08:31,329 - pytest_plugin.mapping_fixture_action - ERROR - Problems with finalizer occured, please check list <class 'pytest_plugin.mapping_fixture_action.ItemState'> and item test_smth2pkg test_smth3.py
+Traceback (most recent call last):
+  File "/Users/kiryl_zayets/Dropbox/Python/report_portal/pytest_plugin/mapping_fixture_action.py", line 66, in deactivate
+    raise NothingFound('No one finalizer is found in the list {0}. Was trying to found {1}'.format(cls, repr))
+pytest_plugin.custom_exceptions.NothingFound: No one finalizer is found in the list <class 'pytest_plugin.mapping_fixture_action.ItemState'>. Was trying to found test_smth2pkg test_smth3.py
+2014-06-23 17:22:52,565 - use_plugin.test_something.test_sm1 - ERROR - mega error
+2014-06-23 17:25:23,511 - use_plugin.test_something.test_sm1 - ERROR - mega error
+2014-06-23 17:32:31,131 - use_plugin.test_something.test_sm1 - ERROR - mega error
+2014-06-23 17:33:09,249 - pytest_plugin.mapping_fixture_action - ERROR - Problems with finalizer occured, please check list <class 'pytest_plugin.mapping_fixture_action.ItemState'> and item test_smth2pkg test_smth3.py
+Traceback (most recent call last):
+  File "/Users/kiryl_zayets/Dropbox/Python/report_portal/pytest_plugin/mapping_fixture_action.py", line 66, in deactivate
+    raise NothingFound('No one finalizer is found in the list {0}. Was trying to found {1}'.format(cls, repr))
+pytest_plugin.custom_exceptions.NothingFound: No one finalizer is found in the list <class 'pytest_plugin.mapping_fixture_action.ItemState'>. Was trying to found test_smth2pkg test_smth3.py
+2014-06-23 17:34:21,000 - use_plugin.test_something.test_sm1 - ERROR - mega error
+2014-06-23 17:45:45,722 - use_plugin.test_something.test_sm1 - ERROR - mega error
+2014-06-23 18:00:29,442 - pytest_plugin.mapping_fixture_action - ERROR - Problems with finalizer occured, please check list <class 'pytest_plugin.mapping_fixture_action.ItemState'> and item test_usf envelop
+Traceback (most recent call last):
+  File "/Users/kiryl_zayets/Dropbox/Python/report_portal/pytest_plugin/mapping_fixture_action.py", line 64, in deactivate
+    raise MoreThanOneFound('Several finalizers found {}'.format(current_event))
+pytest_plugin.custom_exceptions.MoreThanOneFound: Several finalizers found [<pytest_plugin.mapping_fixture_action.ItemState object at 0x104a2dd10>, <pytest_plugin.mapping_fixture_action.ItemState object at 0x1046229d0>]
+2014-06-23 18:01:21,559 - pytest_plugin.mapping_fixture_action - ERROR - Problems with finalizer occured, please check list <class 'pytest_plugin.mapping_fixture_action.ItemState'> and item test_smth2pkg test_smth3.py
+Traceback (most recent call last):
+  File "/Users/kiryl_zayets/Dropbox/Python/report_portal/pytest_plugin/mapping_fixture_action.py", line 66, in deactivate
+    raise NothingFound('No one finalizer is found in the list {0}. Was trying to found {1}'.format(cls, repr))
+pytest_plugin.custom_exceptions.NothingFound: No one finalizer is found in the list <class 'pytest_plugin.mapping_fixture_action.ItemState'>. Was trying to found test_smth2pkg test_smth3.py
+2014-06-23 18:01:53,239 - use_plugin.test_something.test_sm1 - ERROR - mega error
+2014-06-23 18:05:35,368 - use_plugin.test_something.test_sm1 - ERROR - mega error
+2014-06-23 18:06:11,075 - pytest_plugin.mapping_fixture_action - ERROR - Problems with finalizer occured, please check list <class 'pytest_plugin.mapping_fixture_action.ItemState'> and item test_smth2pkg test_smth3.py
+Traceback (most recent call last):
+  File "/Users/kiryl_zayets/Dropbox/Python/report_portal/pytest_plugin/mapping_fixture_action.py", line 66, in deactivate
+    raise NothingFound('No one finalizer is found in the list {0}. Was trying to found {1}'.format(cls, repr))
+pytest_plugin.custom_exceptions.NothingFound: No one finalizer is found in the list <class 'pytest_plugin.mapping_fixture_action.ItemState'>. Was trying to found test_smth2pkg test_smth3.py
+2014-06-23 18:11:36,431 - use_plugin.test_something.test_sm1 - ERROR - mega error
+2014-06-23 18:14:03,379 - use_plugin.test_something.test_sm1 - ERROR - mega error
+2014-06-23 18:14:08,834 - pytest_plugin.mapping_fixture_action - ERROR - Problems with finalizer occured, please check list <class 'pytest_plugin.mapping_fixture_action.ItemState'> and item test_usf envelop
+Traceback (most recent call last):
+  File "/Users/kiryl_zayets/Dropbox/Python/report_portal/pytest_plugin/mapping_fixture_action.py", line 64, in deactivate
+    raise MoreThanOneFound('Several finalizers found {}'.format(current_event))
+pytest_plugin.custom_exceptions.MoreThanOneFound: Several finalizers found [<pytest_plugin.mapping_fixture_action.ItemState object at 0x1049e6b50>, <pytest_plugin.mapping_fixture_action.ItemState object at 0x104996cd0>]
+2014-06-23 18:14:34,407 - use_plugin.test_something.test_sm1 - ERROR - mega error
+2014-06-23 18:16:09,355 - use_plugin.test_something.test_sm1 - ERROR - mega error
+2014-06-23 18:17:32,418 - pytest_plugin.mapping_fixture_action - ERROR - Problems with finalizer occured, please check list <class 'pytest_plugin.mapping_fixture_action.ItemState'> and item test_smth2pkg test_smth3.py
+Traceback (most recent call last):
+  File "/Users/kiryl_zayets/Dropbox/Python/report_portal/pytest_plugin/mapping_fixture_action.py", line 66, in deactivate
+    raise NothingFound('No one finalizer is found in the list {0}. Was trying to found {1}'.format(cls, repr))
+pytest_plugin.custom_exceptions.NothingFound: No one finalizer is found in the list <class 'pytest_plugin.mapping_fixture_action.ItemState'>. Was trying to found test_smth2pkg test_smth3.py
+2014-06-23 18:30:34,259 - pytest_plugin.mapping_fixture_action - ERROR - Problems with finalizer occured, please check list <class 'pytest_plugin.mapping_fixture_action.ItemState'> and item test_smth2pkg test_smth3.py
+Traceback (most recent call last):
+  File "/Users/kiryl_zayets/Dropbox/Python/report_portal/pytest_plugin/mapping_fixture_action.py", line 66, in deactivate
+    raise NothingFound('No one finalizer is found in the list {0}. Was trying to found {1}'.format(cls, repr))
+pytest_plugin.custom_exceptions.NothingFound: No one finalizer is found in the list <class 'pytest_plugin.mapping_fixture_action.ItemState'>. Was trying to found test_smth2pkg test_smth3.py
+2014-06-24 14:15:54,618 - pytest_plugin.mapping_fixture_action - ERROR - Problems with finalizer occured, please check list <class 'pytest_plugin.mapping_fixture_action.ItemState'> and item test_smth2pkg test_smth3.py
+Traceback (most recent call last):
+  File "/Users/kiryl_zayets/Dropbox/Python/report_portal/pytest_plugin/mapping_fixture_action.py", line 67, in deactivate
+    raise NothingFound('No one finalizer is found in the list {0}. Was trying to found {1}'.format(cls, repr))
+pytest_plugin.custom_exceptions.NothingFound: No one finalizer is found in the list <class 'pytest_plugin.mapping_fixture_action.ItemState'>. Was trying to found test_smth2pkg test_smth3.py
+2014-06-24 14:33:25,777 - pytest_plugin.mapping_fixture_action - ERROR - Problems with finalizer occured, please check list <class 'pytest_plugin.mapping_fixture_action.ItemState'> and item test_smth2pkg test_smth3.py
+Traceback (most recent call last):
+  File "/Users/kiryl_zayets/Dropbox/Python/report_portal/pytest_plugin/mapping_fixture_action.py", line 67, in deactivate
+    raise NothingFound('No one finalizer is found in the list {0}. Was trying to found {1}'.format(cls, repr))
+pytest_plugin.custom_exceptions.NothingFound: No one finalizer is found in the list <class 'pytest_plugin.mapping_fixture_action.ItemState'>. Was trying to found test_smth2pkg test_smth3.py
+2014-06-24 14:51:08,898 - use_plugin.test_something.test_sm1 - ERROR - mega error
+2014-06-24 14:54:39,365 - use_plugin.test_something.test_sm1 - ERROR - mega error
+2014-06-24 15:34:51,488 - use_plugin.test_something.test_sm1 - ERROR - mega error
+2014-06-24 15:49:56,297 - use_plugin.test_something.test_sm1 - ERROR - mega error
+2014-06-24 15:55:58,349 - use_plugin.test_something.test_sm1 - ERROR - mega error
+2014-06-24 16:05:04,412 - use_plugin.test_something.test_sm1 - ERROR - mega error
+2014-06-24 16:10:17,559 - use_plugin.test_something.test_sm1 - ERROR - mega error
+2014-06-24 16:13:54,345 - use_plugin.test_something.test_sm1 - ERROR - mega error
+2014-06-24 16:24:07,718 - use_plugin.test_something.test_sm1 - ERROR - mega error
+2014-06-24 16:38:55,694 - use_plugin.test_something.test_sm1 - ERROR - mega error
+2014-06-24 16:44:50,171 - pytest_plugin.mapping_fixture_action - ERROR - Problems with finalizer occured, please check list <class 'pytest_plugin.mapping_fixture_action.ItemState'> and item test_smth2pkg test_smth3.py
+Traceback (most recent call last):
+  File "/Users/kiryl_zayets/Dropbox/Python/report_portal/pytest_plugin/mapping_fixture_action.py", line 67, in deactivate
+    raise NothingFound('No one finalizer is found in the list {0}. Was trying to found {1}'.format(cls, repr))
+pytest_plugin.custom_exceptions.NothingFound: No one finalizer is found in the list <class 'pytest_plugin.mapping_fixture_action.ItemState'>. Was trying to found test_smth2pkg test_smth3.py
+2014-06-24 17:05:17,365 - use_plugin.test_something.test_sm1 - ERROR - mega error
+2014-06-24 17:05:28,742 - pytest_plugin.mapping_fixture_action - ERROR - Problems with finalizer occured, please check list <class 'pytest_plugin.mapping_fixture_action.ItemState'> and item test_smth2pkg test_smth3.py
+Traceback (most recent call last):
+  File "/Users/kiryl_zayets/Dropbox/Python/report_portal/pytest_plugin/mapping_fixture_action.py", line 67, in deactivate
+    raise NothingFound('No one finalizer is found in the list {0}. Was trying to found {1}'.format(cls, repr))
+pytest_plugin.custom_exceptions.NothingFound: No one finalizer is found in the list <class 'pytest_plugin.mapping_fixture_action.ItemState'>. Was trying to found test_smth2pkg test_smth3.py
+2014-06-24 17:06:14,556 - use_plugin.test_something.test_sm1 - ERROR - mega error
+2014-06-24 17:06:28,428 - pytest_plugin.mapping_fixture_action - ERROR - Problems with finalizer occured, please check list <class 'pytest_plugin.mapping_fixture_action.ItemState'> and item test_smth2pkg test_smth3.py
+Traceback (most recent call last):
+  File "/Users/kiryl_zayets/Dropbox/Python/report_portal/pytest_plugin/mapping_fixture_action.py", line 67, in deactivate
+    raise NothingFound('No one finalizer is found in the list {0}. Was trying to found {1}'.format(cls, repr))
+pytest_plugin.custom_exceptions.NothingFound: No one finalizer is found in the list <class 'pytest_plugin.mapping_fixture_action.ItemState'>. Was trying to found test_smth2pkg test_smth3.py
+2014-06-24 17:09:55,618 - pytest_plugin.mapping_fixture_action - ERROR - Problems with finalizer occured, please check list <class 'pytest_plugin.mapping_fixture_action.ItemState'> and item test_smth2pkg test_smth3.py
+Traceback (most recent call last):
+  File "/Users/kiryl_zayets/Dropbox/Python/report_portal/pytest_plugin/mapping_fixture_action.py", line 67, in deactivate
+    raise NothingFound('No one finalizer is found in the list {0}. Was trying to found {1}'.format(cls, repr))
+pytest_plugin.custom_exceptions.NothingFound: No one finalizer is found in the list <class 'pytest_plugin.mapping_fixture_action.ItemState'>. Was trying to found test_smth2pkg test_smth3.py
+2014-06-24 17:14:08,937 - pytest_plugin.mapping_fixture_action - ERROR - Problems with finalizer occured, please check list <class 'pytest_plugin.mapping_fixture_action.ItemState'> and item test_smth2pkg test_smth3.py
+Traceback (most recent call last):
+  File "/Users/kiryl_zayets/Dropbox/Python/report_portal/pytest_plugin/mapping_fixture_action.py", line 67, in deactivate
+    raise NothingFound('No one finalizer is found in the list {0}. Was trying to found {1}'.format(cls, repr))
+pytest_plugin.custom_exceptions.NothingFound: No one finalizer is found in the list <class 'pytest_plugin.mapping_fixture_action.ItemState'>. Was trying to found test_smth2pkg test_smth3.py
+2014-06-24 17:15:33,530 - use_plugin.test_something.test_sm1 - ERROR - mega error
+2014-06-24 17:15:46,335 - pytest_plugin.mapping_fixture_action - ERROR - Problems with finalizer occured, please check list <class 'pytest_plugin.mapping_fixture_action.ItemState'> and item test_smth2pkg test_smth3.py
+Traceback (most recent call last):
+  File "/Users/kiryl_zayets/Dropbox/Python/report_portal/pytest_plugin/mapping_fixture_action.py", line 67, in deactivate
+    raise NothingFound('No one finalizer is found in the list {0}. Was trying to found {1}'.format(cls, repr))
+pytest_plugin.custom_exceptions.NothingFound: No one finalizer is found in the list <class 'pytest_plugin.mapping_fixture_action.ItemState'>. Was trying to found test_smth2pkg test_smth3.py
+2014-06-24 17:28:52,808 - use_plugin.test_something.test_sm1 - ERROR - mega error
+2014-06-24 17:55:50,377 - pytest_plugin.mapping_fixture_action - ERROR - Problems with finalizer occured, please check list <class 'pytest_plugin.mapping_fixture_action.ItemState'> and item test_smth2pkg test_smth3.py
+Traceback (most recent call last):
+  File "/Users/kiryl_zayets/Dropbox/Python/report_portal/pytest_plugin/mapping_fixture_action.py", line 67, in deactivate
+    raise NothingFound('No one finalizer is found in the list {0}. Was trying to found {1}'.format(cls, repr))
+pytest_plugin.custom_exceptions.NothingFound: No one finalizer is found in the list <class 'pytest_plugin.mapping_fixture_action.ItemState'>. Was trying to found test_smth2pkg test_smth3.py
+2014-06-24 17:57:44,920 - use_plugin.test_something.test_sm1 - ERROR - mega error
+2014-06-24 17:57:58,489 - pytest_plugin.mapping_fixture_action - ERROR - Problems with finalizer occured, please check list <class 'pytest_plugin.mapping_fixture_action.ItemState'> and item test_smth2pkg test_smth3.py
+Traceback (most recent call last):
+  File "/Users/kiryl_zayets/Dropbox/Python/report_portal/pytest_plugin/mapping_fixture_action.py", line 67, in deactivate
+    raise NothingFound('No one finalizer is found in the list {0}. Was trying to found {1}'.format(cls, repr))
+pytest_plugin.custom_exceptions.NothingFound: No one finalizer is found in the list <class 'pytest_plugin.mapping_fixture_action.ItemState'>. Was trying to found test_smth2pkg test_smth3.py
+2014-06-25 10:51:06,749 - use_plugin.test_something.test_sm1 - ERROR - mega error
+2014-06-25 10:53:35,480 - use_plugin.test_something.test_sm1 - ERROR - mega error
+2014-06-25 10:54:57,065 - use_plugin.test_something.test_sm1 - ERROR - mega error
+2014-06-25 10:55:37,648 - use_plugin.test_something.test_sm1 - ERROR - mega error
+2014-06-25 10:55:48,995 - pytest_plugin.mapping_fixture_action - ERROR - Problems with finalizer occured, please check list <class 'pytest_plugin.mapping_fixture_action.ItemState'> and item test_smth2pkg test_smth3.py
+Traceback (most recent call last):
+  File "/Users/kiryl_zayets/Dropbox/Python/report_portal/pytest_plugin/mapping_fixture_action.py", line 67, in deactivate
+    raise NothingFound('No one finalizer is found in the list {0}. Was trying to found {1}'.format(cls, repr))
+pytest_plugin.custom_exceptions.NothingFound: No one finalizer is found in the list <class 'pytest_plugin.mapping_fixture_action.ItemState'>. Was trying to found test_smth2pkg test_smth3.py
+2014-06-25 10:56:14,498 - use_plugin.test_something.test_sm1 - ERROR - mega error
+2014-06-25 10:56:26,094 - pytest_plugin.mapping_fixture_action - ERROR - Problems with finalizer occured, please check list <class 'pytest_plugin.mapping_fixture_action.ItemState'> and item test_smth2pkg test_smth3.py
+Traceback (most recent call last):
+  File "/Users/kiryl_zayets/Dropbox/Python/report_portal/pytest_plugin/mapping_fixture_action.py", line 67, in deactivate
+    raise NothingFound('No one finalizer is found in the list {0}. Was trying to found {1}'.format(cls, repr))
+pytest_plugin.custom_exceptions.NothingFound: No one finalizer is found in the list <class 'pytest_plugin.mapping_fixture_action.ItemState'>. Was trying to found test_smth2pkg test_smth3.py
+2014-06-25 10:58:20,877 - use_plugin.test_something.test_sm1 - ERROR - mega error
+2014-06-25 10:58:32,206 - pytest_plugin.mapping_fixture_action - ERROR - Problems with finalizer occured, please check list <class 'pytest_plugin.mapping_fixture_action.ItemState'> and item test_smth2pkg test_smth3.py
+Traceback (most recent call last):
+  File "/Users/kiryl_zayets/Dropbox/Python/report_portal/pytest_plugin/mapping_fixture_action.py", line 67, in deactivate
+    raise NothingFound('No one finalizer is found in the list {0}. Was trying to found {1}'.format(cls, repr))
+pytest_plugin.custom_exceptions.NothingFound: No one finalizer is found in the list <class 'pytest_plugin.mapping_fixture_action.ItemState'>. Was trying to found test_smth2pkg test_smth3.py
+2014-06-25 10:58:46,258 - use_plugin.test_something.test_sm1 - ERROR - mega error
+2014-06-25 10:58:57,972 - pytest_plugin.mapping_fixture_action - ERROR - Problems with finalizer occured, please check list <class 'pytest_plugin.mapping_fixture_action.ItemState'> and item test_smth2pkg test_smth3.py
+Traceback (most recent call last):
+  File "/Users/kiryl_zayets/Dropbox/Python/report_portal/pytest_plugin/mapping_fixture_action.py", line 67, in deactivate
+    raise NothingFound('No one finalizer is found in the list {0}. Was trying to found {1}'.format(cls, repr))
+pytest_plugin.custom_exceptions.NothingFound: No one finalizer is found in the list <class 'pytest_plugin.mapping_fixture_action.ItemState'>. Was trying to found test_smth2pkg test_smth3.py
+2014-06-25 11:02:26,554 - use_plugin.test_something.test_sm1 - ERROR - mega error
+2014-06-25 11:02:37,444 - pytest_plugin.mapping_fixture_action - ERROR - Problems with finalizer occured, please check list <class 'pytest_plugin.mapping_fixture_action.ItemState'> and item test_smth2pkg test_smth3.py
+Traceback (most recent call last):
+  File "/Users/kiryl_zayets/Dropbox/Python/report_portal/pytest_plugin/mapping_fixture_action.py", line 67, in deactivate
+    raise NothingFound('No one finalizer is found in the list {0}. Was trying to found {1}'.format(cls, repr))
+pytest_plugin.custom_exceptions.NothingFound: No one finalizer is found in the list <class 'pytest_plugin.mapping_fixture_action.ItemState'>. Was trying to found test_smth2pkg test_smth3.py
+2014-06-25 11:03:11,796 - use_plugin.test_something.test_sm1 - ERROR - mega error
+2014-06-25 11:03:23,313 - pytest_plugin.mapping_fixture_action - ERROR - Problems with finalizer occured, please check list <class 'pytest_plugin.mapping_fixture_action.ItemState'> and item test_smth2pkg test_smth3.py
+Traceback (most recent call last):
+  File "/Users/kiryl_zayets/Dropbox/Python/report_portal/pytest_plugin/mapping_fixture_action.py", line 67, in deactivate
+    raise NothingFound('No one finalizer is found in the list {0}. Was trying to found {1}'.format(cls, repr))
+pytest_plugin.custom_exceptions.NothingFound: No one finalizer is found in the list <class 'pytest_plugin.mapping_fixture_action.ItemState'>. Was trying to found test_smth2pkg test_smth3.py
+2014-06-25 11:03:27,748 - use_plugin.test_something.test_sm1 - ERROR - mega error
+2014-06-25 11:03:39,099 - pytest_plugin.mapping_fixture_action - ERROR - Problems with finalizer occured, please check list <class 'pytest_plugin.mapping_fixture_action.ItemState'> and item test_smth2pkg test_smth3.py
+Traceback (most recent call last):
+  File "/Users/kiryl_zayets/Dropbox/Python/report_portal/pytest_plugin/mapping_fixture_action.py", line 67, in deactivate
+    raise NothingFound('No one finalizer is found in the list {0}. Was trying to found {1}'.format(cls, repr))
+pytest_plugin.custom_exceptions.NothingFound: No one finalizer is found in the list <class 'pytest_plugin.mapping_fixture_action.ItemState'>. Was trying to found test_smth2pkg test_smth3.py
+2014-06-25 11:05:35,537 - use_plugin.test_something.test_sm1 - ERROR - mega error
+2014-06-25 11:06:35,537 - use_plugin.test_something.test_sm1 - ERROR - mega error
+2014-06-25 11:09:11,636 - use_plugin.test_something.test_sm1 - ERROR - mega error
+2014-06-25 11:09:22,793 - pytest_plugin.mapping_fixture_action - ERROR - Problems with finalizer occured, please check list <class 'pytest_plugin.mapping_fixture_action.ItemState'> and item test_smth2pkg test_smth3.py
+Traceback (most recent call last):
+  File "/Users/kiryl_zayets/Dropbox/Python/report_portal/pytest_plugin/mapping_fixture_action.py", line 67, in deactivate
+    raise NothingFound('No one finalizer is found in the list {0}. Was trying to found {1}'.format(cls, repr))
+pytest_plugin.custom_exceptions.NothingFound: No one finalizer is found in the list <class 'pytest_plugin.mapping_fixture_action.ItemState'>. Was trying to found test_smth2pkg test_smth3.py
+2014-06-25 11:09:39,277 - use_plugin.test_something.test_sm1 - ERROR - mega error
+2014-06-25 11:09:50,039 - pytest_plugin.mapping_fixture_action - ERROR - Problems with finalizer occured, please check list <class 'pytest_plugin.mapping_fixture_action.ItemState'> and item test_smth2pkg test_smth3.py
+Traceback (most recent call last):
+  File "/Users/kiryl_zayets/Dropbox/Python/report_portal/pytest_plugin/mapping_fixture_action.py", line 67, in deactivate
+    raise NothingFound('No one finalizer is found in the list {0}. Was trying to found {1}'.format(cls, repr))
+pytest_plugin.custom_exceptions.NothingFound: No one finalizer is found in the list <class 'pytest_plugin.mapping_fixture_action.ItemState'>. Was trying to found test_smth2pkg test_smth3.py
+2014-06-25 11:11:22,351 - use_plugin.test_something.test_sm1 - ERROR - mega error
+2014-06-25 11:11:32,000 - pytest_plugin.mapping_fixture_action - ERROR - Problems with finalizer occured, please check list <class 'pytest_plugin.mapping_fixture_action.ItemState'> and item test_smth2pkg test_smth3.py
+Traceback (most recent call last):
+  File "/Users/kiryl_zayets/Dropbox/Python/report_portal/pytest_plugin/mapping_fixture_action.py", line 67, in deactivate
+    raise NothingFound('No one finalizer is found in the list {0}. Was trying to found {1}'.format(cls, repr))
+pytest_plugin.custom_exceptions.NothingFound: No one finalizer is found in the list <class 'pytest_plugin.mapping_fixture_action.ItemState'>. Was trying to found test_smth2pkg test_smth3.py
+2014-06-25 11:19:43,447 - use_plugin.test_something.test_sm1 - ERROR - mega error
+2014-06-25 11:19:52,998 - pytest_plugin.mapping_fixture_action - ERROR - Problems with finalizer occured, please check list <class 'pytest_plugin.mapping_fixture_action.ItemState'> and item test_smth2pkg test_smth3.py
+Traceback (most recent call last):
+  File "/Users/kiryl_zayets/Dropbox/Python/report_portal/pytest_plugin/mapping_fixture_action.py", line 67, in deactivate
+    raise NothingFound('No one finalizer is found in the list {0}. Was trying to found {1}'.format(cls, repr))
+pytest_plugin.custom_exceptions.NothingFound: No one finalizer is found in the list <class 'pytest_plugin.mapping_fixture_action.ItemState'>. Was trying to found test_smth2pkg test_smth3.py
+2014-06-25 11:51:47,062 - use_plugin.test_something.test_sm1 - ERROR - mega error
+2014-06-25 16:47:10,713 - use_plugin.test_something.test_sm1 - ERROR - mega error
+2014-06-25 16:47:27,368 - pytest_plugin.mapping_fixture_action - ERROR - Problems with finalizer occured, please check list <class 'pytest_plugin.mapping_fixture_action.ItemState'> and item test_smth2pkg test_smth3.py
+Traceback (most recent call last):
+  File "/Users/kiryl_zayets/Dropbox/Python/report_portal/pytest_plugin/mapping_fixture_action.py", line 67, in deactivate
+    raise NothingFound('No one finalizer is found in the list {0}. Was trying to found {1}'.format(cls, repr))
+pytest_plugin.custom_exceptions.NothingFound: No one finalizer is found in the list <class 'pytest_plugin.mapping_fixture_action.ItemState'>. Was trying to found test_smth2pkg test_smth3.py
+2014-06-25 16:55:57,348 - use_plugin.test_something.test_sm1 - ERROR - mega error
+2014-06-25 16:56:10,926 - pytest_plugin.mapping_fixture_action - ERROR - Problems with finalizer occured, please check list <class 'pytest_plugin.mapping_fixture_action.ItemState'> and item test_smth2pkg test_smth3.py
+Traceback (most recent call last):
+  File "/Users/kiryl_zayets/Dropbox/Python/report_portal/pytest_plugin/mapping_fixture_action.py", line 67, in deactivate
+    raise NothingFound('No one finalizer is found in the list {0}. Was trying to found {1}'.format(cls, repr))
+pytest_plugin.custom_exceptions.NothingFound: No one finalizer is found in the list <class 'pytest_plugin.mapping_fixture_action.ItemState'>. Was trying to found test_smth2pkg test_smth3.py
+2014-06-25 16:57:37,614 - use_plugin.test_something.test_sm1 - ERROR - mega error
+2014-06-25 16:57:49,693 - pytest_plugin.mapping_fixture_action - ERROR - Problems with finalizer occured, please check list <class 'pytest_plugin.mapping_fixture_action.ItemState'> and item test_smth2pkg test_smth3.py
+Traceback (most recent call last):
+  File "/Users/kiryl_zayets/Dropbox/Python/report_portal/pytest_plugin/mapping_fixture_action.py", line 67, in deactivate
+    raise NothingFound('No one finalizer is found in the list {0}. Was trying to found {1}'.format(cls, repr))
+pytest_plugin.custom_exceptions.NothingFound: No one finalizer is found in the list <class 'pytest_plugin.mapping_fixture_action.ItemState'>. Was trying to found test_smth2pkg test_smth3.py
+2014-06-25 17:04:00,199 - use_plugin.test_something.test_sm1 - ERROR - mega error
+2014-06-25 17:10:37,930 - use_plugin.test_something.test_sm1 - ERROR - mega error
+2014-06-25 17:11:42,917 - use_plugin.test_something.test_sm1 - ERROR - mega error
+2014-06-25 17:11:55,308 - pytest_plugin.mapping_fixture_action - ERROR - Problems with finalizer occured, please check list <class 'pytest_plugin.mapping_fixture_action.ItemState'> and item test_smth2pkg test_smth3.py
+Traceback (most recent call last):
+  File "/Users/kiryl_zayets/Dropbox/Python/report_portal/pytest_plugin/mapping_fixture_action.py", line 67, in deactivate
+    raise NothingFound('No one finalizer is found in the list {0}. Was trying to found {1}'.format(cls, repr))
+pytest_plugin.custom_exceptions.NothingFound: No one finalizer is found in the list <class 'pytest_plugin.mapping_fixture_action.ItemState'>. Was trying to found test_smth2pkg test_smth3.py
+2014-06-25 17:12:58,175 - use_plugin.test_something.test_sm1 - ERROR - mega error
+2014-06-25 17:13:10,638 - pytest_plugin.mapping_fixture_action - ERROR - Problems with finalizer occured, please check list <class 'pytest_plugin.mapping_fixture_action.ItemState'> and item test_smth2pkg test_smth3.py
+Traceback (most recent call last):
+  File "/Users/kiryl_zayets/Dropbox/Python/report_portal/pytest_plugin/mapping_fixture_action.py", line 67, in deactivate
+    raise NothingFound('No one finalizer is found in the list {0}. Was trying to found {1}'.format(cls, repr))
+pytest_plugin.custom_exceptions.NothingFound: No one finalizer is found in the list <class 'pytest_plugin.mapping_fixture_action.ItemState'>. Was trying to found test_smth2pkg test_smth3.py
+2014-06-25 17:14:46,593 - pytest_plugin.mapping_fixture_action - ERROR - Problems with finalizer occured, please check list <class 'pytest_plugin.mapping_fixture_action.ItemState'> and item test_smth2pkg test_smth3.py
+Traceback (most recent call last):
+  File "/Users/kiryl_zayets/Dropbox/Python/report_portal/pytest_plugin/mapping_fixture_action.py", line 67, in deactivate
+    raise NothingFound('No one finalizer is found in the list {0}. Was trying to found {1}'.format(cls, repr))
+pytest_plugin.custom_exceptions.NothingFound: No one finalizer is found in the list <class 'pytest_plugin.mapping_fixture_action.ItemState'>. Was trying to found test_smth2pkg test_smth3.py
+2014-06-25 17:16:24,259 - pytest_plugin.mapping_fixture_action - ERROR - Problems with finalizer occured, please check list <class 'pytest_plugin.mapping_fixture_action.ItemState'> and item test_smth2pkg test_smth3.py
+Traceback (most recent call last):
+  File "/Users/kiryl_zayets/Dropbox/Python/report_portal/pytest_plugin/mapping_fixture_action.py", line 67, in deactivate
+    raise NothingFound('No one finalizer is found in the list {0}. Was trying to found {1}'.format(cls, repr))
+pytest_plugin.custom_exceptions.NothingFound: No one finalizer is found in the list <class 'pytest_plugin.mapping_fixture_action.ItemState'>. Was trying to found test_smth2pkg test_smth3.py
+2014-06-25 17:17:03,022 - pytest_plugin.mapping_fixture_action - ERROR - Problems with finalizer occured, please check list <class 'pytest_plugin.mapping_fixture_action.ItemState'> and item test_smth2pkg test_smth3.py
+Traceback (most recent call last):
+  File "/Users/kiryl_zayets/Dropbox/Python/report_portal/pytest_plugin/mapping_fixture_action.py", line 67, in deactivate
+    raise NothingFound('No one finalizer is found in the list {0}. Was trying to found {1}'.format(cls, repr))
+pytest_plugin.custom_exceptions.NothingFound: No one finalizer is found in the list <class 'pytest_plugin.mapping_fixture_action.ItemState'>. Was trying to found test_smth2pkg test_smth3.py
+2014-06-25 17:18:33,289 - pytest_plugin.mapping_fixture_action - ERROR - Problems with finalizer occured, please check list <class 'pytest_plugin.mapping_fixture_action.ItemState'> and item test_smth2pkg test_smth3.py
+Traceback (most recent call last):
+  File "/Users/kiryl_zayets/Dropbox/Python/report_portal/pytest_plugin/mapping_fixture_action.py", line 67, in deactivate
+    raise NothingFound('No one finalizer is found in the list {0}. Was trying to found {1}'.format(cls, repr))
+pytest_plugin.custom_exceptions.NothingFound: No one finalizer is found in the list <class 'pytest_plugin.mapping_fixture_action.ItemState'>. Was trying to found test_smth2pkg test_smth3.py
+2014-06-25 18:00:18,104 - pytest_plugin.mapping_fixture_action - ERROR - Problems with finalizer occured, please check list <class 'pytest_plugin.mapping_fixture_action.ItemState'> and item test_smth2pkg test_smth3.py
+Traceback (most recent call last):
+  File "/Users/kiryl_zayets/Dropbox/Python/report_portal/pytest_plugin/mapping_fixture_action.py", line 67, in deactivate
+    raise NothingFound('No one finalizer is found in the list {0}. Was trying to found {1}'.format(cls, repr))
+pytest_plugin.custom_exceptions.NothingFound: No one finalizer is found in the list <class 'pytest_plugin.mapping_fixture_action.ItemState'>. Was trying to found test_smth2pkg test_smth3.py
+2014-06-25 18:06:22,064 - pytest_plugin.mapping_fixture_action - ERROR - Problems with finalizer occured, please check list <class 'pytest_plugin.mapping_fixture_action.ItemState'> and item test_smth2pkg test_smth3.py
+Traceback (most recent call last):
+  File "/Users/kiryl_zayets/Dropbox/Python/report_portal/pytest_plugin/mapping_fixture_action.py", line 67, in deactivate
+    raise NothingFound('No one finalizer is found in the list {0}. Was trying to found {1}'.format(cls, repr))
+pytest_plugin.custom_exceptions.NothingFound: No one finalizer is found in the list <class 'pytest_plugin.mapping_fixture_action.ItemState'>. Was trying to found test_smth2pkg test_smth3.py
+2014-06-25 18:08:19,610 - pytest_plugin.mapping_fixture_action - ERROR - Problems with finalizer occured, please check list <class 'pytest_plugin.mapping_fixture_action.ItemState'> and item test_smth2pkg test_smth3.py
+Traceback (most recent call last):
+  File "/Users/kiryl_zayets/Dropbox/Python/report_portal/pytest_plugin/mapping_fixture_action.py", line 67, in deactivate
+    raise NothingFound('No one finalizer is found in the list {0}. Was trying to found {1}'.format(cls, repr))
+pytest_plugin.custom_exceptions.NothingFound: No one finalizer is found in the list <class 'pytest_plugin.mapping_fixture_action.ItemState'>. Was trying to found test_smth2pkg test_smth3.py
+2014-06-26 12:55:01,336 - pytest_plugin.mapping_fixture_action - ERROR - Problems with finalizer occured, please check list <class 'pytest_plugin.mapping_fixture_action.ItemState'> and item test_smth2pkg test_smth3.py
+Traceback (most recent call last):
+  File "/Users/kiryl_zayets/Dropbox/Python/report_portal/pytest_plugin/mapping_fixture_action.py", line 67, in deactivate
+    raise NothingFound('No one finalizer is found in the list {0}. Was trying to found {1}'.format(cls, repr))
+pytest_plugin.custom_exceptions.NothingFound: No one finalizer is found in the list <class 'pytest_plugin.mapping_fixture_action.ItemState'>. Was trying to found test_smth2pkg test_smth3.py
+2014-06-26 12:57:51,486 - pytest_plugin.mapping_fixture_action - ERROR - Problems with finalizer occured, please check list <class 'pytest_plugin.mapping_fixture_action.ItemState'> and item test_smth2pkg test_smth3.py
+Traceback (most recent call last):
+  File "/Users/kiryl_zayets/Dropbox/Python/report_portal/pytest_plugin/mapping_fixture_action.py", line 67, in deactivate
+    raise NothingFound('No one finalizer is found in the list {0}. Was trying to found {1}'.format(cls, repr))
+pytest_plugin.custom_exceptions.NothingFound: No one finalizer is found in the list <class 'pytest_plugin.mapping_fixture_action.ItemState'>. Was trying to found test_smth2pkg test_smth3.py
+2014-06-26 12:58:53,620 - pytest_plugin.mapping_fixture_action - ERROR - Problems with finalizer occured, please check list <class 'pytest_plugin.mapping_fixture_action.ItemState'> and item test_smth2pkg test_smth3.py
+Traceback (most recent call last):
+  File "/Users/kiryl_zayets/Dropbox/Python/report_portal/pytest_plugin/mapping_fixture_action.py", line 67, in deactivate
+    raise NothingFound('No one finalizer is found in the list {0}. Was trying to found {1}'.format(cls, repr))
+pytest_plugin.custom_exceptions.NothingFound: No one finalizer is found in the list <class 'pytest_plugin.mapping_fixture_action.ItemState'>. Was trying to found test_smth2pkg test_smth3.py
+2014-12-23 13:53:11,284 - pytest_plugin.mapping_fixture_action - ERROR - Problems with finalizer occured, please check list <class 'pytest_plugin.mapping_fixture_action.ItemState'> and item test_smth2pkg test_smth3.py
+Traceback (most recent call last):
+  File "/Users/kiryl_zayets/Dropbox/Python/report_portal/pytest_plugin/mapping_fixture_action.py", line 67, in deactivate
+    raise NothingFound('No one finalizer is found in the list {0}. Was trying to found {1}'.format(cls, repr))
+pytest_plugin.custom_exceptions.NothingFound: No one finalizer is found in the list <class 'pytest_plugin.mapping_fixture_action.ItemState'>. Was trying to found test_smth2pkg test_smth3.py
+2015-01-13 12:10:42,049 - pytest_plugin.mapping_fixture_action - ERROR - Problems with finalizer occured, please check list <class 'pytest_plugin.mapping_fixture_action.ItemState'> and item test_smth2pkg test_smth3.py
+Traceback (most recent call last):
+  File "/Users/kiryl_zayets/Dropbox/Python/report_portal/pytest_plugin/mapping_fixture_action.py", line 67, in deactivate
+    raise NothingFound('No one finalizer is found in the list {0}. Was trying to found {1}'.format(cls, repr))
+pytest_plugin.custom_exceptions.NothingFound: No one finalizer is found in the list <class 'pytest_plugin.mapping_fixture_action.ItemState'>. Was trying to found test_smth2pkg test_smth3.py
+2015-01-13 12:15:24,165 - pytest_plugin.mapping_fixture_action - ERROR - Problems with finalizer occured, please check list <class 'pytest_plugin.mapping_fixture_action.ItemState'> and item test_smth2pkg test_smth3.py
+Traceback (most recent call last):
+  File "/Users/kiryl_zayets/Dropbox/Python/report_portal/pytest_plugin/mapping_fixture_action.py", line 67, in deactivate
+    raise NothingFound('No one finalizer is found in the list {0}. Was trying to found {1}'.format(cls, repr))
+pytest_plugin.custom_exceptions.NothingFound: No one finalizer is found in the list <class 'pytest_plugin.mapping_fixture_action.ItemState'>. Was trying to found test_smth2pkg test_smth3.py
+2015-01-13 12:30:22,207 - pytest_plugin.mapping_fixture_action - ERROR - Problems with finalizer occured, please check list <class 'pytest_plugin.mapping_fixture_action.ItemState'> and item test_smth2pkg test_smth3.py
+Traceback (most recent call last):
+  File "/Users/kiryl_zayets/Dropbox/Python/report_portal/pytest_plugin/mapping_fixture_action.py", line 67, in deactivate
+    raise NothingFound('No one finalizer is found in the list {0}. Was trying to found {1}'.format(cls, repr))
+pytest_plugin.custom_exceptions.NothingFound: No one finalizer is found in the list <class 'pytest_plugin.mapping_fixture_action.ItemState'>. Was trying to found test_smth2pkg test_smth3.py
+2015-01-13 12:39:51,368 - pytest_plugin.mapping_fixture_action - ERROR - Problems with finalizer occured, please check list <class 'pytest_plugin.mapping_fixture_action.ItemState'> and item test_smth2pkg test_smth3.py
+Traceback (most recent call last):
+  File "/Users/kiryl_zayets/Dropbox/Python/report_portal/pytest_plugin/mapping_fixture_action.py", line 67, in deactivate
+    raise NothingFound('No one finalizer is found in the list {0}. Was trying to found {1}'.format(cls, repr))
+pytest_plugin.custom_exceptions.NothingFound: No one finalizer is found in the list <class 'pytest_plugin.mapping_fixture_action.ItemState'>. Was trying to found test_smth2pkg test_smth3.py
+2015-01-13 12:47:59,678 - pytest_plugin.mapping_fixture_action - ERROR - Problems with finalizer occured, please check list <class 'pytest_plugin.mapping_fixture_action.ItemState'> and item test_smth2pkg test_smth3.py
+Traceback (most recent call last):
+  File "/Users/kiryl_zayets/Dropbox/Python/report_portal/pytest_plugin/mapping_fixture_action.py", line 67, in deactivate
+    raise NothingFound('No one finalizer is found in the list {0}. Was trying to found {1}'.format(cls, repr))
+pytest_plugin.custom_exceptions.NothingFound: No one finalizer is found in the list <class 'pytest_plugin.mapping_fixture_action.ItemState'>. Was trying to found test_smth2pkg test_smth3.py
+2015-01-13 13:19:33,407 - pytest_plugin.mapping_fixture_action - ERROR - Problems with finalizer occured, please check list <class 'pytest_plugin.mapping_fixture_action.ItemState'> and item test_smth2pkg test_smth3.py
+Traceback (most recent call last):
+  File "/Users/kiryl_zayets/Dropbox/Python/report_portal/pytest_plugin/mapping_fixture_action.py", line 67, in deactivate
+    raise NothingFound('No one finalizer is found in the list {0}. Was trying to found {1}'.format(cls, repr))
+pytest_plugin.custom_exceptions.NothingFound: No one finalizer is found in the list <class 'pytest_plugin.mapping_fixture_action.ItemState'>. Was trying to found test_smth2pkg test_smth3.py
+2015-01-13 13:29:14,927 - pytest_plugin.mapping_fixture_action - ERROR - Problems with finalizer occured, please check list <class 'pytest_plugin.mapping_fixture_action.ItemState'> and item test_smth2pkg test_smth3.py
+Traceback (most recent call last):
+  File "/Users/kiryl_zayets/Dropbox/Python/report_portal/pytest_plugin/mapping_fixture_action.py", line 67, in deactivate
+    raise NothingFound('No one finalizer is found in the list {0}. Was trying to found {1}'.format(cls, repr))
+pytest_plugin.custom_exceptions.NothingFound: No one finalizer is found in the list <class 'pytest_plugin.mapping_fixture_action.ItemState'>. Was trying to found test_smth2pkg test_smth3.py
+2015-01-20 10:08:56,022 - pytest_plugin.mapping_fixture_action - ERROR - Problems with finalizer occured, please check list <class 'pytest_plugin.mapping_fixture_action.ItemState'> and item test_smth2pkg test_smth3.py
+Traceback (most recent call last):
+  File "/Users/kiryl_zayets/Dropbox/Python/report_portal/pytest_plugin/mapping_fixture_action.py", line 67, in deactivate
+    raise NothingFound('No one finalizer is found in the list {0}. Was trying to found {1}'.format(cls, repr))
+pytest_plugin.custom_exceptions.NothingFound: No one finalizer is found in the list <class 'pytest_plugin.mapping_fixture_action.ItemState'>. Was trying to found test_smth2pkg test_smth3.py
+2015-01-20 11:30:28,286 - pytest_plugin.mapping_fixture_action - ERROR - Problems with finalizer occured, please check list <class 'pytest_plugin.mapping_fixture_action.ItemState'> and item test_smth2pkg test_smth3.py
+Traceback (most recent call last):
+  File "/Users/kiryl_zayets/Dropbox/Python/report_portal/pytest_plugin/mapping_fixture_action.py", line 67, in deactivate
+    raise NothingFound('No one finalizer is found in the list {0}. Was trying to found {1}'.format(cls, repr))
+pytest_plugin.custom_exceptions.NothingFound: No one finalizer is found in the list <class 'pytest_plugin.mapping_fixture_action.ItemState'>. Was trying to found test_smth2pkg test_smth3.py
+2015-01-20 11:50:10,610 - pytest_plugin.mapping_fixture_action - ERROR - Problems with finalizer occured, please check list <class 'pytest_plugin.mapping_fixture_action.ItemState'> and item test_smth2pkg test_smth3.py
+Traceback (most recent call last):
+  File "/Users/kiryl_zayets/Dropbox/Python/report_portal/pytest_plugin/mapping_fixture_action.py", line 67, in deactivate
+    raise NothingFound('No one finalizer is found in the list {0}. Was trying to found {1}'.format(cls, repr))
+pytest_plugin.custom_exceptions.NothingFound: No one finalizer is found in the list <class 'pytest_plugin.mapping_fixture_action.ItemState'>. Was trying to found test_smth2pkg test_smth3.py
+2015-01-20 11:57:08,451 - pytest_plugin.mapping_fixture_action - ERROR - Problems with finalizer occured, please check list <class 'pytest_plugin.mapping_fixture_action.ItemState'> and item test_smth2pkg test_smth3.py
+Traceback (most recent call last):
+  File "/Users/kiryl_zayets/Dropbox/Python/report_portal/pytest_plugin/mapping_fixture_action.py", line 67, in deactivate
+    raise NothingFound('No one finalizer is found in the list {0}. Was trying to found {1}'.format(cls, repr))
+pytest_plugin.custom_exceptions.NothingFound: No one finalizer is found in the list <class 'pytest_plugin.mapping_fixture_action.ItemState'>. Was trying to found test_smth2pkg test_smth3.py

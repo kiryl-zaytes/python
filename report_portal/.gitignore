@@ -1,0 +1,6 @@
+*.egg
+.env/
+__pycache__/
+.Python
+.idea
+*.pyc
