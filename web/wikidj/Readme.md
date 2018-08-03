@@ -1,1 +1,1 @@
-Simplified wiki engine written in Python and Django.
+Simplified "engine" written in Python to practice web programming.
