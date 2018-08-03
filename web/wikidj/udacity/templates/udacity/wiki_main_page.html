@@ -1,0 +1,35 @@
+{% extends "udacity/base.html" %}
+{% block content %}
+
+    <div class="col-md-10">
+    <span class="navbar-text" style="position:absolute;top:5px;right:5px;margin:0;padding:5px 3px;">
+        <a class="btn-link" id="login" href="{% url 'user-login' %}">login </a>
+        <a class="btn-link" id="edit" href=''> edit</a>
+        {% if is_auth %}
+        <a class="btn-link" id="signout" href="{% url 'user-logout' %}">{{ user }}(logout) </a>
+        {% else %}
+        <a class="btn-link" id="signup" href="{% url 'reg-user' %}">signup </a>
+        {% endif %}
+
+    </span>
+    <br>
+     <script type="text/javascript">
+        var url = document.URL.split('/')
+        var path = url[url.length-1]
+        document.getElementById( "edit" ).href = '/udacity/_edit/'+path;
+    </script>
+    <br>
+        <div>{{ content|safe }}</div>
+        {% if form %}
+            <form class="center-block" id="wiki-form" method="post">{% csrf_token %}
+                <div>
+                    {{ form.content}}
+                </div>
+                <div class="center-block">
+                    <button type="submit" class="btn btn-success" value="save">Save</button>
+                </div>
+            </form>
+        {% endif %}
+    </div>
+{% endblock %}
+href="{% url 'edit-content' %}"

@@ -1,0 +1,57 @@
+{% extends 'udacity/base.html' %}
+{% block content %}
+    <legend>Registration</legend>
+    <div class="col-lg-offset-5 ">
+        <form class="form-horizontal" id="registerHere" method='post' action='{% url "reg-user" %}'>{% csrf_token %}
+            <fieldset>
+                <div class="control-groupform">
+                    <label class="control-label">Username</label>
+
+                    <div class="form-horizontal" >
+                        {{ form.username }}
+                        {% if form.username.errors %}
+                        <div class="has-error">
+                            <span class="has-error" > {{ form.username.errors }}</span>
+                        </div>
+                    {% endif %}
+                    </div>
+                </div>
+
+                <div class="control-group">
+                    <label class="control-label">Password</label>
+
+                    <div class="form-horizontal" >
+                        {{ form.password1 }}
+                        {% if form.password1.errors %}
+                        <div class="has-error">
+                            <span class="has-error" > {{ form.password1.errors }}</span>
+                        </div>
+                    {% endif %}
+                    </div>
+                </div>
+
+                <div class="control-group">
+                    <label class="control-label">Verify Password</label>
+
+                    <div class="form-horizontal" >
+                        {{ form.password2 }}
+                        {% if form.password2.errors %}
+                        <div class="has-error">
+                            <span class="has-error" > {{ form.password2.errors }}</span>
+                        </div>
+                    {% endif %}
+                    </div>
+                </div>
+
+                <div class="control-group">
+                    <label class="control-label"></label>
+
+                    <div class="center-block">
+                        <button type="submit" class="btn btn-success" value="save">SignUp</button>
+                    </div>
+                </div>
+
+            </fieldset>
+        </form>
+    </div>
+{% endblock %}
